@@ -6,7 +6,7 @@ description: "使用 CC Switch 配置 Look2Eye API Key 和请求地址，为 Cod
 
 # 配置模型供应商
 
-推荐先用平台的一键配置脚本 配好 Look2Eye 供应商和 API Key。完成后再开启 WebSocket，让 Codex 长时间编码会话更流畅。
+推荐先用[平台](https://api.look2eye.com/keys)的一键配置脚本 配好 Look2Eye 供应商和 API Key。直接开启 WebSocket，让 Codex 长时间编码会话更流畅。
 
 
 ## 使用平台的一键配置脚本(推荐)

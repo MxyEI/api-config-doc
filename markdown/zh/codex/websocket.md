@@ -5,6 +5,7 @@ description: "为 Codex 本地客户端开启推荐的 WebSocket 长连接，并
 
 
 # 开启 WebSocket
+(如果上一步使用平台的一键配置脚本就已经自动开启了)
 
 先完成 [配置模型供应商](model-provider.md)，再运行一键命令开启 Codex 的 Responses 协议格式和 WebSocket 长连接。脚本只修改连接能力，不读取、不保存、不覆盖 API Key。
 
