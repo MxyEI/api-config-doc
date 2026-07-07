@@ -11,7 +11,13 @@
 python3 generate_integrations.py            # 用本地 markdown/ 生成 docs-site/
 python3 generate_integrations.py --dev      # 生成后启动本地预览（Next.js dev）
 python3 generate_integrations.py --build    # 生成后构建静态站点到 docs-site/out/
+python3 generate_integrations.py --preview  # 构建后用本地 HTTP 服务器预览 out/
 ```
+
+> ⚠️ `out/` 是静态导出，页面里的 `/_next`、`/assets` 是站点**绝对路径**，
+> **不能直接双击 html 打开**（file:// 下资源会 404，页面空白/掉样式）。
+> 本地看构建产物请用 `--preview`（或任意静态服务器，如 `cd docs-site/out && python3 -m http.server`）；
+> 部署时把 `out/` 放到站点**根路径**下即可。
 
 生成脚本仅依赖 Python 3 标准库；预览 / 构建站点需要 Node.js 20+（首次会自动 `npm install`）。
 

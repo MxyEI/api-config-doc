@@ -458,6 +458,38 @@ def run_npm(*npm_args: str) -> None:
         sys.exit(proc.returncode)
 
 
+def preview_build(port: int = 8000) -> None:
+    """用本地 HTTP 服务器预览构建产物 out/。
+
+    静态导出的页面必须经 HTTP 访问，不能直接双击 html 打开：页面里的
+    /_next、/assets 都是站点绝对路径，file:// 下会解析到磁盘根目录而全部失效。
+    """
+    import functools
+    import http.server
+    import webbrowser
+
+    out = DOCS_SITE / "out"
+    if not (out / "index.html").exists():
+        print("未发现 out/，先构建静态站点 ...")
+        run_npm("run", "build")
+    handler = functools.partial(
+        http.server.SimpleHTTPRequestHandler, directory=str(out)
+    )
+    httpd = http.server.ThreadingHTTPServer(("127.0.0.1", port), handler)
+    url = f"http://127.0.0.1:{port}/"
+    print(f"预览构建产物: {url}  （按 Ctrl+C 结束）")
+    try:
+        webbrowser.open(url)
+    except Exception:  # noqa: BLE001
+        pass
+    try:
+        httpd.serve_forever()
+    except KeyboardInterrupt:
+        print("\n已停止预览")
+    finally:
+        httpd.server_close()
+
+
 # ---------------------------------------------------------------- 主流程
 
 def build() -> None:
@@ -501,6 +533,8 @@ if __name__ == "__main__":
                     help="生成后构建静态站点到 docs-site/out/")
     ap.add_argument("--dev", "--serve", dest="dev", action="store_true",
                     help="生成后启动本地预览 (Next.js dev)")
+    ap.add_argument("--preview", action="store_true",
+                    help="构建后用本地 HTTP 服务器预览 out/（静态导出不能直接双击 html 打开）")
     args = ap.parse_args()
     load_config(args)
 
@@ -517,5 +551,8 @@ if __name__ == "__main__":
     if args.build:
         run_npm("run", "build")
         print(f"静态站点已输出到 {DOCS_SITE / 'out'}")
+        print("提示：静态导出需经 HTTP 访问，用 --preview 预览，勿直接双击 html")
     if args.dev:
         run_npm("run", "dev")
+    if args.preview:
+        preview_build()
