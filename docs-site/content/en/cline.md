@@ -13,7 +13,7 @@ description: "Configure Look2Eye in Cline (VS Code AI coding plugin) to access G
 ## Prerequisites
 
 
-- Registered Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/console/api-keys))
+- Registered Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/keys))
 - [VS Code](https://code.visualstudio.com/) installed
 
 

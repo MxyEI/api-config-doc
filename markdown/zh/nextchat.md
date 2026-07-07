@@ -20,7 +20,7 @@ NextChat 支持以下三种协议接入 Look2Eye：
 
 ## 前提条件
 
--   已注册 Look2Eye 账号并获取 API Key（[前往获取](https://api.look2eye.com/console/api-keys) ）
+-   已注册 Look2Eye 账号并获取 API Key（[前往获取](https://api.look2eye.com/keys) ）
 -   已安装 NextChat（[下载地址](https://nextchat.dev) ）或使用 Web 版
 
 ## 配置步骤

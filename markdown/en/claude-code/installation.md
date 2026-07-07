@@ -13,7 +13,7 @@ Claude Code is an AI-powered coding assistant that understands your entire codeb
 ## Prerequisites
 
 
-- [Look2Eye API Key](https://api.look2eye.com/console/api-keys) (sign up to get one — no Claude subscription required)
+- [Look2Eye API Key](https://api.look2eye.com/keys) (sign up to get one — no Claude subscription required)
 
 
 ## Terminal CLI

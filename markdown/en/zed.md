@@ -30,7 +30,7 @@ Paired with Look2Eye, one API Key gives you access to leading global models in Z
 ### 1. Get an API Key
 
 
-Go to the [Look2Eye Console](https://api.look2eye.com/console/api-keys) to create an API Key.
+Go to the [Look2Eye Console](https://api.look2eye.com/keys) to create an API Key.
 
 
 ### 2. Add Provider

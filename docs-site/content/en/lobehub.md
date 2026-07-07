@@ -24,7 +24,7 @@ Look2Eye supports four protocols in LobeHub:
 ## Prerequisites
 
 
-- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/console/api-keys))
+- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/keys))
 - LobeHub installed ([Download](https://lobehub.com/download))
 
 
@@ -97,7 +97,7 @@ After setup, go back to the main screen, click the model icon on the left of the
 
 
 1. Make sure the API Proxy URL is correct (see table above)
-2. Make sure your API Key is copied in full from the [Look2Eye Console](https://api.look2eye.com/console/api-keys)
+2. Make sure your API Key is copied in full from the [Look2Eye Console](https://api.look2eye.com/keys)
 3. Check your network connection
 
 

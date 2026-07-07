@@ -16,7 +16,7 @@ By configuring Look2Eye as your provider, you can use GPT, Claude, Gemini, DeepS
 ## Prerequisites
 
 
-- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/console/api-keys))
+- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/keys))
 - OpenCat installed ([Download](https://opencat.app))
 
 
@@ -94,7 +94,7 @@ For recommended models, see the [Look2Eye Model Marketplace](https://api.look2ey
 
 
 1. Make sure Base URL is `https://api.api.look2eye.com/v1` (no trailing slash)
-2. Make sure your API Key is copied in full from the [Look2Eye Console](https://api.look2eye.com/console/api-keys) with no extra spaces
+2. Make sure your API Key is copied in full from the [Look2Eye Console](https://api.look2eye.com/keys) with no extra spaces
 3. Check your network connection
 
 

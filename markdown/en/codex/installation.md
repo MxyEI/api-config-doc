@@ -16,7 +16,7 @@ Codex CLI is OpenAI’s AI coding command-line tool for AI-assisted coding direc
 ## Prerequisites
 
 
-- [Look2Eye API Key](https://api.look2eye.com/console/api-keys) (sign up to get one)
+- [Look2Eye API Key](https://api.look2eye.com/keys) (sign up to get one)
 - [Node.js](https://nodejs.org) (v18+ recommended)
 
 

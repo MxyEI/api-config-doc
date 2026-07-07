@@ -9,11 +9,23 @@ description: "使用 CC Switch 配置 Look2Eye API Key 和请求地址，为 Cod
 推荐先用[平台](https://api.look2eye.com/keys)的一键配置脚本 配好 Look2Eye 供应商和 API Key。直接开启 WebSocket，让 Codex 长时间编码会话更流畅。
 
 
-## 使用平台的一键配置脚本(推荐)
-![平台一键配置脚本](../../assets/codex/01-codex-一键配置脚本.png)
+## 方式 1 使用平台的一键配置脚本(推荐)
+
+![平台一键配置脚本](../../assets/claude-code/01-cc-一键配置脚本.webp)
+选择 codex cli，下载后运行
+
+Windows
+```
+直接运行 下载的bat 脚本
+```
+
+mac
+```
+把 sh 脚本拖到终端运行，如果权限不足则需要 执行 chmod +x 脚本.sh
+```
 
 
-## 使用 CC Switch 图形化配置
+## 方式 2 使用 CC Switch 图形化配置
 
 [CC Switch](https://github.com/farion1231/cc-switch) 是开源的供应商管理工具，适合偏好图形界面的用户。
 
@@ -64,7 +76,7 @@ chmod +x CC-Switch-*.AppImage && ./CC-Switch-*.AppImage
 | --- | --- | --- |
 | ❶ 供应商名称 | `look2eye` | 推荐使用，后续 WebSocket 配置更容易对应 |
 | ❷ 官网链接 | `https://api.look2eye.com` | 供应商官网 |
-| ❸ API Key | 你的 Look2Eye API Key | 在 [api.look2eye.com/console/api-keys](https://api.look2eye.com/console/api-keys) 获取 |
+| ❸ API Key | 你的 Look2Eye API Key | 在 [api.look2eye.com/keys](https://api.look2eye.com/keys) 获取 |
 | ❹ 请求地址 | `https://api.api.look2eye.com/v1` | 末尾不要加斜杠 |
 | ❺ API 格式 | `OpenAI Compatible` | 选择 OpenAI 兼容格式 |
 | ❻ 写入通用配置 | ✅ 勾选 | 写入全局配置，所有项目生效 |

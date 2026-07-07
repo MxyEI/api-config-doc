@@ -16,7 +16,7 @@ By configuring Look2Eye as your translation service, you can use GPT, Claude, Ge
 ## Prerequisites
 
 
-- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/console/api-keys))
+- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/keys))
 - Immersive Translate installed ([Download](https://immersivetranslate.com))
 
 
@@ -138,7 +138,7 @@ For recommended models, see the [Look2Eye Model Marketplace](https://api.look2ey
 **Q: Error `String contains non ISO-8859-1 code point` during test**
 
 
-Your API Key contains non-ASCII characters (e.g. full-width spaces). Re-copy the API Key from the [Look2Eye Console](https://api.look2eye.com/console/api-keys) and make sure there are no extra characters.
+Your API Key contains non-ASCII characters (e.g. full-width spaces). Re-copy the API Key from the [Look2Eye Console](https://api.look2eye.com/keys) and make sure there are no extra characters.
 
 
 **Q: Can the built-in Gemini provider connect to Look2Eye?**

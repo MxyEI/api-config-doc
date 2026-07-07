@@ -8,7 +8,7 @@ LangChain 是一个用于构建 AI 应用的开发框架，支持 Python 和 Jav
 
 ## 前提条件
 
-- 已注册 Look2Eye 账号并获取 API Key（[前往获取](https://api.look2eye.com/console/api-keys) ）
+- 已注册 Look2Eye 账号并获取 API Key（[前往获取](https://api.look2eye.com/keys) ）
 - 已安装 Python 3.8+
 
 ## 配置步骤

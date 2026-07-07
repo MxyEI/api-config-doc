@@ -13,7 +13,7 @@ description: "Configure Look2Eye in WorkBuddy AI Agent to access GPT, Claude, Ge
 ## Prerequisites
 
 
-- A registered Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/console/api-keys))
+- A registered Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/keys))
 - WorkBuddy installed ([Download](https://workbuddy.ai))
 
 
@@ -113,4 +113,4 @@ Try restarting WorkBuddy. Newly added models will appear under the “Custom Mod
 **Q: Request fails or API error**
 
 
-Check that the API endpoint is complete (`https://api.api.look2eye.com/v1/chat/completions`) and that the API KEY was copied in full from the [Look2Eye Console](https://api.look2eye.com/console/api-keys) with no extra spaces.
+Check that the API endpoint is complete (`https://api.api.look2eye.com/v1/chat/completions`) and that the API KEY was copied in full from the [Look2Eye Console](https://api.look2eye.com/keys) with no extra spaces.

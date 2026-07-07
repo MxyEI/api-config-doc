@@ -9,11 +9,21 @@ description: "配置模型供应商：Look2Eye 文档页面，说明接口用途
 推荐使用[平台](https://api.look2eye.com/keys)的一键配置脚本 完成配置
 或者使用 ccswitch —— 一款开源的供应商管理工具，可视化操作，无需手动编辑 JSON 或环境变量。
 
-## 使用平台的一键配置脚本(推荐)
+##  方式 1 使用平台的一键配置脚本(推荐)
+![平台一键配置脚本](../../assets/claude-code/01-cc-一键配置脚本.webp)
+选择 claude code，下载后运行
 
+Windows
+```
+直接运行 下载的bat 脚本
+```
 
+mac
+```
+把 sh 脚本拖到终端运行，如果权限不足则需要 执行 chmod +x 脚本.sh
+```
 
-## 1\. 安装 CC Switch
+## 方式 2 安装 CC Switch
 
 ### macOS
 
@@ -60,7 +70,7 @@ chmod +x CC-Switch-*.AppImage && ./CC-Switch-*.AppImage
 | --- | --- | --- |
 | ❶ 供应商名称 | `look2eye-claude` | 自定义，方便识别 |
 | ❷ 官网链接 | `https://api.look2eye.com` | 供应商官网 |
-| ❸ API Key | 你的 Look2Eye API Key | 在 [api.look2eye.com/console/api-keys](https://api.look2eye.com/console/api-keys) 获取 |
+| ❸ API Key | 你的 Look2Eye API Key | 在 [api.look2eye.com/keys](https://api.look2eye.com/keys) 获取 |
 | ❹ 请求地址 | `https://api.api.look2eye.com/anthropic` | 末尾不要加斜杠 |
 | ❺ API 格式 / 认证字段 | `Anthropic Messages (原生)` / `ANTHROPIC_AUTH_TOKEN（默认）` | 保持默认 |
 | ❻ 模型配置 | 留空 | 留空使用默认 Claude 模型 |

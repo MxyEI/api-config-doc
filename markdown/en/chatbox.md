@@ -12,7 +12,7 @@ description: "Configure Look2Eye in Chatbox, a cross-platform AI desktop client.
 ## Prerequisites
 
 
-- A registered Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/console/api-keys))
+- A registered Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/keys))
 - Chatbox installed ([Download](https://chatboxai.app/en))
 
 
@@ -161,6 +161,6 @@ Check that the API Host is entered correctly (no trailing slash) and that the AP
 **Q: Connection failed during the check**
 
 
-1. Confirm the API Key was copied in full from the [Look2Eye Console](https://api.look2eye.com/console/api-keys) with no extra spaces
+1. Confirm the API Key was copied in full from the [Look2Eye Console](https://api.look2eye.com/keys) with no extra spaces
 2. Confirm the API Host is entered correctly
 3. Confirm your network connection is working

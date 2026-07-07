@@ -10,7 +10,7 @@ description: "在 LlamaIndex 中通过 OpenAI-like LLM 配置 Look2Eye，用于 
 
 ## 前提条件
 
--   已注册 Look2Eye 账号并获取 API Key（[前往获取](https://api.look2eye.com/console/api-keys) ）
+-   已注册 Look2Eye 账号并获取 API Key（[前往获取](https://api.look2eye.com/keys) ）
 -   已安装 Python 3.10+
 
 ## 配置步骤
@@ -67,4 +67,4 @@ Python 版本过低，需要升级到 Python 3.10 或以上版本。
 
 **Q: 提示 API Key 无效**
 
-确认 `api_key` 填写的是 Look2Eye 的 API Key，可在 [Look2Eye 控制台](https://api.look2eye.com/console/api-keys)  获取。
+确认 `api_key` 填写的是 Look2Eye 的 API Key，可在 [Look2Eye 控制台](https://api.look2eye.com/keys)  获取。

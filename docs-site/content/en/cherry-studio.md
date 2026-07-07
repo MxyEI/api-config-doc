@@ -34,7 +34,7 @@ Cherry Studio supports connecting to Look2Eye via four protocols:
 ## Prerequisites
 
 
-- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/console/api-keys))
+- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/keys))
 - Cherry Studio installed ([Download](https://cherry-ai.com))
 
 
@@ -302,7 +302,7 @@ Check that the API address is correct (no trailing slash) and that the API key w
 **Q: Connection failed during verification**
 
 
-1. Confirm the API Key was copied completely from the [Look2Eye Console](https://api.look2eye.com/console/api-keys) without extra spaces
+1. Confirm the API Key was copied completely from the [Look2Eye Console](https://api.look2eye.com/keys) without extra spaces
 2. Confirm the API address is correct
 3. Confirm your network connection is working
 

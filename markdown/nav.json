@@ -31,10 +31,10 @@
    "websocket"
   ],
   "claude-code": [
-   "contextline",
    "installation",
    "model-provider",
-   "skills"
+   "skills",
+   "contextline"
   ]
  },
  "en": {

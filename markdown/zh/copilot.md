@@ -12,7 +12,7 @@ description: "GitHub Copilot 配置：Look2Eye 文档页面，说明接口用途
 
 ## 前提条件
 
--   已注册 Look2Eye 账号并获取 API Key（[前往获取](https://api.look2eye.com/console/api-keys) ）
+-   已注册 Look2Eye 账号并获取 API Key（[前往获取](https://api.look2eye.com/keys) ）
 -   已安装 [VS Code](https://code.visualstudio.com/)
 -   已有有效的 **GitHub Copilot 个人版（Individual）** 订阅（不支持 Business / Enterprise）
 
@@ -108,7 +108,7 @@ OAICopilot: Open Configuration UI
 检查以下几点：
 
 1.  Global Base URL 是否为 `https://api.api.look2eye.com/v1`（末尾不加斜杠）
-2.  API Key 是否从 [Look2Eye 控制台](https://api.look2eye.com/console/api-keys)  完整复制（无前后空格）
+2.  API Key 是否从 [Look2Eye 控制台](https://api.look2eye.com/keys)  完整复制（无前后空格）
 3.  Provider 的 API Mode 是否选择了 `Anthropic`
 
 **Q: 代码补全（Tab 补全）仍使用 Copilot 官方模型**

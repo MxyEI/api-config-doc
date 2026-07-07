@@ -29,7 +29,7 @@ curl -sSL https://openclaw.ai/install.sh | bash
 
 ### 1\. 获取 API Key
 
-前往 [Look2Eye 控制台](https://api.look2eye.com/console/api-keys)  创建 API Key。
+前往 [Look2Eye 控制台](https://api.look2eye.com/keys)  创建 API Key。
 
 ### 2\. 运行配置向导
 

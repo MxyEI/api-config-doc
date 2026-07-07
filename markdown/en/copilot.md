@@ -16,7 +16,7 @@ Using the VS Code extension **OAI Compatible Provider for Copilot**, you can int
 ## Prerequisites
 
 
-- A registered Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/console/api-keys))
+- A registered Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/keys))
 - [VS Code](https://code.visualstudio.com/) installed
 - A valid **GitHub Copilot Individual** subscription (Business / Enterprise not supported)
 
@@ -161,7 +161,7 @@ Check the following:
 
 
 1. Is the Global Base URL exactly `https://api.api.look2eye.com/v1` (no trailing slash)?
-2. Was the API Key copied in full from the [Look2Eye Console](https://api.look2eye.com/console/api-keys) (no leading/trailing spaces)?
+2. Was the API Key copied in full from the [Look2Eye Console](https://api.look2eye.com/keys) (no leading/trailing spaces)?
 3. Is the Provider’s API Mode set to `Anthropic`?
 
 

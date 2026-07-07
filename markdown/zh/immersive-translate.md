@@ -12,7 +12,7 @@ description: "沉浸式翻译配置：Look2Eye 文档页面，说明接口用途
 
 ## 前提条件
 
--   已注册 Look2Eye 账号并获取 API Key（[前往获取](https://api.look2eye.com/console/api-keys) ）
+-   已注册 Look2Eye 账号并获取 API Key（[前往获取](https://api.look2eye.com/keys) ）
 -   已安装沉浸式翻译插件（[下载地址](https://immersivetranslate.com) ）
 
 ## 支持的协议
@@ -100,7 +100,7 @@ description: "沉浸式翻译配置：Look2Eye 文档页面，说明接口用途
 
 **Q: 测试服务时报错 `String contains non ISO-8859-1 code point`**
 
-API Key 中包含了非 ASCII 字符（如全角空格、中文字符）。请重新从 [Look2Eye 控制台](https://api.look2eye.com/console/api-keys)  复制 API Key，确保没有多余字符。
+API Key 中包含了非 ASCII 字符（如全角空格、中文字符）。请重新从 [Look2Eye 控制台](https://api.look2eye.com/keys)  复制 API Key，确保没有多余字符。
 
 **Q: 内置 Gemini 服务商能接入 Look2Eye 吗？**
 

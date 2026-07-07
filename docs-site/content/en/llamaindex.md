@@ -13,7 +13,7 @@ description: "Configure Look2Eye in LlamaIndex to access leading global models i
 ## Prerequisites
 
 
-- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/console/api-keys))
+- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/keys))
 - Python 3.10+ installed
 
 
@@ -90,4 +90,4 @@ Your Python version is too old. Please upgrade to Python 3.10 or above.
 **Q: API Key is invalid**
 
 
-Make sure the `api_key` is your Look2Eye API Key, which you can get from the [Look2Eye Console](https://api.look2eye.com/console/api-keys).
+Make sure the `api_key` is your Look2Eye API Key, which you can get from the [Look2Eye Console](https://api.look2eye.com/keys).

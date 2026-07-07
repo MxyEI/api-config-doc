@@ -41,7 +41,7 @@ curl -sSL https://openclaw.ai/install.sh | bash
 ### 1. Get an API Key
 
 
-Go to the [Look2Eye Console](https://api.look2eye.com/console/api-keys) to create an API Key.
+Go to the [Look2Eye Console](https://api.look2eye.com/keys) to create an API Key.
 
 
 ### 2. Run the Setup Wizard

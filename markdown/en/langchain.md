@@ -13,7 +13,7 @@ description: "Configure Look2Eye in LangChain to access leading global models in
 ## Prerequisites
 
 
-- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/console/api-keys))
+- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/keys))
 - Python 3.8+ installed
 
 

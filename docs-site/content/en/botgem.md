@@ -13,7 +13,7 @@ description: "Configure Look2Eye in BotGem AI desktop client with OpenAI Chat, C
 ## Prerequisites
 
 
-- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/console/api-keys))
+- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/keys))
 - BotGem installed ([Download](https://botgem.com))
 
 
@@ -118,7 +118,7 @@ After saving, go back to the main screen and click **Start Chat**. The current m
 
 
 1. Make sure the API Server address is correct (see table above)
-2. Make sure your API Key is copied in full from the [Look2Eye Console](https://api.look2eye.com/console/api-keys) with no extra spaces
+2. Make sure your API Key is copied in full from the [Look2Eye Console](https://api.look2eye.com/keys) with no extra spaces
 3. Check your network connection
 
 

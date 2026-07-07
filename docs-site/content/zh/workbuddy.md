@@ -10,7 +10,7 @@ description: "在 WorkBuddy 中添加 Look2Eye 自定义模型供应商，并配
 
 ## 前提条件
 
--   已注册 Look2Eye 账号并获取 API Key（[前往获取](https://api.look2eye.com/console/api-keys) ）
+-   已注册 Look2Eye 账号并获取 API Key（[前往获取](https://api.look2eye.com/keys) ）
 -   已安装 WorkBuddy（[下载地址](https://workbuddy.ai) ）
 
 ## 配置步骤
@@ -80,4 +80,4 @@ description: "在 WorkBuddy 中添加 Look2Eye 自定义模型供应商，并配
 
 **Q: 请求失败或提示接口错误**
 
-检查接口地址是否填写完整（`https://api.api.look2eye.com/v1/chat/completions`），以及 API KEY 是否从 [Look2Eye 控制台](https://api.look2eye.com/console/api-keys)  完整复制，无多余空格。
+检查接口地址是否填写完整（`https://api.api.look2eye.com/v1/chat/completions`），以及 API KEY 是否从 [Look2Eye 控制台](https://api.look2eye.com/keys)  完整复制，无多余空格。

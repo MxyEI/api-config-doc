@@ -26,7 +26,7 @@ NextChat supports three protocols with Look2Eye:
 ## Prerequisites
 
 
-- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/console/api-keys))
+- An Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/keys))
 - NextChat installed ([Download](https://nextchat.dev)) or use the web version
 
 

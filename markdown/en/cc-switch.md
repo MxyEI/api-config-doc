@@ -13,7 +13,7 @@ CC-Switch is a powerful multi-model management tool that integrates Look2Eye and
 ## Prerequisites
 
 
-- Registered Look2Eye account with API Key ([Get API Key](https://api.look2eye.com/console/api-keys))
+- Registered Look2Eye account with API Key ([Get API Key](https://api.look2eye.com/keys))
 - Installed and configured [CC-Switch](https://github.com/cc-dayx/cc-switch)
 
 

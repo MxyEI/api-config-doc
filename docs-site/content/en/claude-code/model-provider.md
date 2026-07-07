@@ -73,7 +73,7 @@ Fill in the fields as shown in the image below, then click **+ Add** to complete
 | --- | --- | --- |
 | ❶ Provider Name | `look2eye-claude` | Custom name for easy identification |
 | ❷ Website URL | `https://api.look2eye.com` | Provider website |
-| ❸ API Key | Your Look2Eye API Key | Get it at [api.look2eye.com/console/api-keys](https://api.look2eye.com/console/api-keys) |
+| ❸ API Key | Your Look2Eye API Key | Get it at [api.look2eye.com/keys](https://api.look2eye.com/keys) |
 | ❹ Request URL | `https://api.api.look2eye.com/anthropic` | Do not add a trailing slash |
 | ❺ API Format / Auth Field | `Anthropic Messages (Native)` / `ANTHROPIC_AUTH_TOKEN (Default)` | Keep defaults |
 | ❻ Model Configuration | Leave empty | Leave empty to use the default Claude model |

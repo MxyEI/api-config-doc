@@ -8,7 +8,7 @@ description: "在 Claude Coworks 中启用第三方推理 Gateway，并通过 Lo
 
 ## 前提条件
 
-- 已注册 Look2Eye 账号并获取 API Key（[前往获取](https://api.look2eye.com/console/api-keys)）
+- 已注册 Look2Eye 账号并获取 API Key（[前往获取](https://api.look2eye.com/keys)）
 - 已安装 Claude Coworks（[下载地址](https://claudecoworks.com)）
 
 ## 配置步骤

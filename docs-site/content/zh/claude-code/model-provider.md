@@ -60,7 +60,7 @@ chmod +x CC-Switch-*.AppImage && ./CC-Switch-*.AppImage
 | --- | --- | --- |
 | ❶ 供应商名称 | `look2eye-claude` | 自定义，方便识别 |
 | ❷ 官网链接 | `https://api.look2eye.com` | 供应商官网 |
-| ❸ API Key | 你的 Look2Eye API Key | 在 [api.look2eye.com/console/api-keys](https://api.look2eye.com/console/api-keys) 获取 |
+| ❸ API Key | 你的 Look2Eye API Key | 在 [api.look2eye.com/keys](https://api.look2eye.com/keys) 获取 |
 | ❹ 请求地址 | `https://api.api.look2eye.com/anthropic` | 末尾不要加斜杠 |
 | ❺ API 格式 / 认证字段 | `Anthropic Messages (原生)` / `ANTHROPIC_AUTH_TOKEN（默认）` | 保持默认 |
 | ❻ 模型配置 | 留空 | 留空使用默认 Claude 模型 |

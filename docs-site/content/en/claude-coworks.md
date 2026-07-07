@@ -13,7 +13,7 @@ description: "Configure Look2Eye in Claude Coworks using the Gateway feature wit
 ## Prerequisites
 
 
-- A registered Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/console/api-keys))
+- A registered Look2Eye account with an API Key ([Get one here](https://api.look2eye.com/keys))
 - Claude Coworks installed ([Download](https://claude.ai/download))
 
 
@@ -116,5 +116,5 @@ You need to complete Step 1 first. The Developer menu only appears after Develop
 
 1. Confirm the Gateway base URL is `https://api.api.look2eye.com/anthropic` with no trailing slash
 2. Confirm the Gateway auth scheme is set to `x-api-key`
-3. Confirm the API Key was copied in full from the [Look2Eye Console](https://api.look2eye.com/console/api-keys) with no extra spaces
+3. Confirm the API Key was copied in full from the [Look2Eye Console](https://api.look2eye.com/keys) with no extra spaces
 4. Check that your network connection is working
