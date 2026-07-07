@@ -4,7 +4,7 @@ description: "在 Claude Coworks 中启用第三方推理 Gateway，并通过 Lo
 ---
 
 
-[Claude Coworks](https://claudecoworks.com) 是 Anthropic 官方桌面客户端，内置「第三方推理」功能，支持通过 Anthropic 兼容的 Gateway 将推理请求转发到 Look2Eye，从而访问全球顶级模型。
+[Claude Desktop](https://claudecoworks.com) 是 Anthropic 官方桌面客户端，内置「第三方推理」功能，支持通过 Anthropic 兼容的 Gateway 将推理请求转发到 Look2Eye，从而访问全球顶级模型。
 
 ## 前提条件
 

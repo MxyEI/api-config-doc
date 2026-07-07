@@ -5,7 +5,6 @@ export default {
   "gemini-cli": "Gemini CLI Setup",
   "cursor": "Cursor Compatibility Notice",
   "copilot": "GitHub Copilot Configuration",
-  "claude-coworks": "Claude Coworks Configuration",
   "cline": "Cline Configuration",
   "openclaw": "OpenClaw",
   "cherry-studio": "Cherry Studio Configuration",

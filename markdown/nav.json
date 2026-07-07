@@ -2,11 +2,11 @@
  "zh": {
   "": [
    "claude-code",
+   "claude-desktop",
    "codex",
    "gemini-cli",
    "cursor",
    "copilot",
-   "claude-coworks",
    "zed",
    "cline",
    "openclaw",
@@ -44,7 +44,6 @@
    "gemini-cli",
    "cursor",
    "copilot",
-   "claude-coworks",
    "cline",
    "openclaw",
    "cherry-studio",

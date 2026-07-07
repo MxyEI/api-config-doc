@@ -1,11 +1,11 @@
 export default {
   "index": "工具集成",
   "claude-code": "claude code",
+  "claude-desktop": "Claude 桌面版 配置",
   "codex": "codex",
   "gemini-cli": "Gemini CLI 配置",
   "cursor": "Cursor 兼容性说明",
   "copilot": "GitHub Copilot 配置",
-  "claude-coworks": "Claude Coworks 配置",
   "zed": "Zed Editor 接入 Look2Eye 配置指南",
   "cline": "Cline 配置",
   "openclaw": "OpenClaw",
