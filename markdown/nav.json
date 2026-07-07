@@ -3,27 +3,7 @@
   "": [
    "claude-code",
    "claude-desktop",
-   "codex",
-   "gemini-cli",
-   "cursor",
-   "copilot",
-   "zed",
-   "cline",
-   "openclaw",
-   "cherry-studio",
-   "cc-switch",
-   "botgem",
-   "chatbox",
-   "workbuddy",
-   "lobehub",
-   "opencat",
-   "nextchat",
-   "immersive-translate",
-   "opencode",
-   "openai-sdk",
-   "langchain",
-   "llamaindex",
-   "others"
+   "codex"
   ],
   "codex": [
    "installation",
@@ -40,27 +20,8 @@
  "en": {
   "": [
    "claude-code",
-   "codex",
-   "gemini-cli",
-   "cursor",
-   "copilot",
-   "cline",
-   "openclaw",
-   "cherry-studio",
-   "cc-switch",
-   "botgem",
-   "chatbox",
-   "workbuddy",
-   "lobehub",
-   "opencat",
-   "nextchat",
-   "immersive-translate",
-   "opencode",
-   "openai-sdk",
-   "langchain",
-   "llamaindex",
-   "others",
-   "zed"
+   "claude-desktop",
+   "codex"
   ],
   "codex": [
    "installation",
@@ -68,10 +29,10 @@
    "websocket"
   ],
   "claude-code": [
-   "contextline",
    "installation",
    "model-provider",
-   "skills"
+   "skills",
+   "contextline"
   ]
  }
 }

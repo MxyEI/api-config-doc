@@ -147,3 +147,5 @@ vite.config.ts.timestamp-*
 __pycache__/
 site/
 .idea/
+/docs-site/
+/docs-site/

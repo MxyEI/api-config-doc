@@ -24,7 +24,7 @@ Type `/plugin` in Claude Code to enter the plugin management interface. The buil
 ```
 
 
-![Claude Code /plugin Interface](/assets/claude-code/01-claude-code-plugin-interface.webp)
+![Claude Code /plugin Interface](/assets/claude-code/01-claude-code-plugin-界面.webp)
 
 
 Search for the desired Skill in the **Discover** tab and install it with one click.

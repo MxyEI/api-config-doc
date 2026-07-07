@@ -431,6 +431,14 @@ def export_nextra() -> None:
                 else:
                     continue
                 lines.append(f"  {js_str(slug)}: {js_str(title)},")
+            # 未列入 nav.json 的页面/目录不进侧边栏（路由保留，仅隐藏）
+            extras = sorted(
+                ({p.stem for p in base.glob("*.md")}
+                 | {p.name for p in base.iterdir() if p.is_dir()})
+                - set(entries) - {"index"}
+            )
+            for slug in extras:
+                lines.append(f"  {js_str(slug)}: {{ display: 'hidden' }},")
             save(content / locale / dirname / "_meta.js", "\n".join(lines) + "\n}\n")
 
     save(

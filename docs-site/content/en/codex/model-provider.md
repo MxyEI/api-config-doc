@@ -7,10 +7,29 @@ description: "Configure the Look2Eye API key and request URL in CC Switch for Co
 # Configure Model Provider
 
 
-We recommend configuring the Look2Eye provider and API key in CC Switch first. After that, enable WebSocket for smoother long Codex coding sessions.
+We recommend using the [platform](https://api.look2eye.com/keys)'s one-click configuration script to set up the Look2Eye provider and API key first. Then enable WebSocket for smoother long Codex coding sessions.
 
 
-## Use CC Switch Visual Setup
+## Method 1: Use the Platform One-Click Script (Recommended)
+
+![Platform one-click configuration script](/assets/claude-code/01-cc-一键配置脚本.webp)
+
+Select **Codex CLI**, download the script, and run it.
+
+Windows
+
+```
+Run the downloaded .bat script directly
+```
+
+macOS
+
+```
+Drag the .sh script into Terminal to run it. If permission is denied, run: chmod +x script.sh
+```
+
+
+## Method 2: Use CC Switch Visual Setup
 
 
 [CC Switch](https://github.com/farion1231/cc-switch) is an open-source provider management tool for users who prefer a visual interface.
@@ -63,7 +82,7 @@ chmod +x CC-Switch-*.AppImage && ./CC-Switch-*.AppImage
 Switch to the **Codex** tab at the top, then click the **+** button in the top-right corner.
 
 
-![CC Switch add provider](/assets/codex/01-cc-switch-add-provider.webp)
+![CC Switch add provider](/assets/codex/01-cc-switch-codex-标签页.webp)
 
 
 ### Step 2: Fill in the Configuration
@@ -72,7 +91,7 @@ Switch to the **Codex** tab at the top, then click the **+** button in the top-r
 Fill in the fields as shown below, then click **+ Add** to complete.
 
 
-![CC Switch provider configuration](/assets/codex/02-cc-switch-provider-configuration.webp)
+![CC Switch provider configuration](/assets/codex/02-cc-switch-codex-供应商配置.webp)
 
 
 | Field | Value | Description |
@@ -94,7 +113,7 @@ Fill in the fields as shown below, then click **+ Add** to complete.
 After adding, go back to the list, select `look2eye`, and click **Use**. Make sure **Write to global config** is checked — the settings will be automatically written to `config.toml`.
 
 
-![CC Switch activate provider](/assets/codex/03-cc-switch-activate-provider.webp)
+![CC Switch activate provider](/assets/codex/03-cc-switch-写入通用配置.webp)
 
 
 ## Verify Configuration
@@ -105,7 +124,7 @@ codex "hello"
 ```
 
 
-![Codex CLI running](/assets/codex/04-codex-cli-running.webp)
+![Codex CLI running](/assets/codex/04-codex-cli-运行效果.webp)
 
 
 A normal AI response confirms the configuration is working.

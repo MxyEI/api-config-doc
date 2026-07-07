@@ -7,10 +7,28 @@ description: "Connect Look2Eye to Claude Code via CC Switch — complete setup i
 # Configure Model Provider
 
 
-We recommend using [CC Switch](https://github.com/farion1231/cc-switch) to complete the configuration — an open-source provider management tool with a visual interface, no need to manually edit JSON or environment variables.
+We recommend using the [platform](https://api.look2eye.com/keys)'s one-click configuration script to complete the setup, or use [CC Switch](https://github.com/farion1231/cc-switch) — an open-source provider management tool with a visual interface, no need to manually edit JSON or environment variables.
 
 
-## 1. Install CC Switch
+## Method 1: Use the Platform One-Click Script (Recommended)
+
+![Platform one-click configuration script](../../assets/claude-code/01-cc-一键配置脚本.webp)
+
+Select **Claude Code**, download the script, and run it.
+
+Windows
+
+```
+Run the downloaded .bat script directly
+```
+
+macOS
+
+```
+Drag the .sh script into Terminal to run it. If permission is denied, run: chmod +x script.sh
+```
+
+## Method 2: Install CC Switch
 
 
 ### macOS
@@ -57,7 +75,7 @@ chmod +x CC-Switch-*.AppImage && ./CC-Switch-*.AppImage
 Open CC Switch, go to the provider management page, and click the **+** button in the upper right corner.
 
 
-![CC Switch Add Provider](../../assets/claude-code/01-cc-switch-add-provider.webp)
+![CC Switch Add Provider](../../assets/claude-code/01-cc-switch-添加供应商.webp)
 
 
 ### Step 2: Fill in the Configuration
@@ -66,7 +84,7 @@ Open CC Switch, go to the provider management page, and click the **+** button i
 Fill in the fields as shown in the image below, then click **+ Add** to complete.
 
 
-![CC Switch Provider Configuration](../../assets/claude-code/02-cc-switch-provider-configuration.webp)
+![CC Switch Provider Configuration](../../assets/claude-code/02-cc-switch-供应商配置.webp)
 
 
 | Field | Value | Description |
@@ -90,9 +108,6 @@ Fill in the fields as shown in the image below, then click **+ Add** to complete
 After adding, return to the list, select `look2eye-claude`, and click the **Use** button. A “Switched successfully” notification confirms the setup is complete.
 
 
-![CC Switch Activate Provider](../../assets/claude-code/03-cc-switch-activate-provider.webp)
-
-
 ## 3. Verify Configuration
 
 
@@ -108,7 +123,7 @@ claude
 On first launch, press `Esc` to skip login. After startup, check the top info bar and confirm it shows **API Usage Billing** (❶), indicating billing through Look2Eye:
 
 
-![Claude Code Startup Screen](../../assets/claude-code/04-claude-code-startup-screen.webp)
+![Claude Code Startup Screen](../../assets/claude-code/04-claude-code-启动界面.webp)
 
 
 If the above information is correct, the configuration is successful.
@@ -126,16 +141,10 @@ With Look2Eye, you can use non-Claude models (such as Qwen, GLM, DeepSeek, etc.)
 Go to the [Look2Eye Model Plaza](https://api.look2eye.com/models), and select **Anthropic** under **API Protocol** on the left sidebar to filter models that support the Anthropic protocol.
 
 
-![Filter Anthropic protocol in Model Plaza](../../assets/claude-code/05-filter-anthropic-protocol-in-model-plaza.webp)
-
-
 ### Step 2: Copy the Model Name
 
 
 Click on the target model card — there’s a **copy button** next to the model name to copy the model ID with one click (e.g., `bailian/qwen3.6-plus`).
-
-
-![Copy model name with one click](../../assets/claude-code/06-copy-model-name-with-one-click.webp)
 
 
 ### Step 3: Configure Model Mapping
@@ -176,7 +185,7 @@ Verify the following key fields:
 - **❷ Model** shows the currently active model
 
 
-![Claude Code /status Output](../../assets/claude-code/07-claude-code-status-output.webp)
+![Claude Code /status Output](../../assets/claude-code/07-claude-code-status-输出.webp)
 
 
 **Q: “Authentication error” message**

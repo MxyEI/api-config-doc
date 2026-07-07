@@ -10,7 +10,7 @@ description: "Install CCometixLine with a single command to add real-time Git st
 [CCometixLine](https://github.com/Haleclipse/CCometixLine) is a Claude Code status bar enhancement tool that displays Git branch status, current model, and context window usage in real time, giving you instant visibility into key information while coding.
 
 
-![CCometixLine Preview](/assets/claude-code/01-ccometixline-preview.webp)
+![CCometixLine Preview](/assets/claude-code/01-ccometixline-效果预览.webp)
 
 
 **Key Features:**

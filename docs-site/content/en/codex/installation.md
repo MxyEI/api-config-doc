@@ -28,7 +28,7 @@ npm install -g @openai/codex
 ```
 
 
-![Install Codex CLI](/assets/codex/01-install-codex-cli.webp)
+![Install Codex CLI](/assets/codex/01-安装-codex-cli.webp)
 
 
 ## Verify Installation
@@ -40,7 +40,7 @@ codex --version
 ```
 
 
-![Verify installation](/assets/codex/02-verify-installation.webp)
+![Verify installation](/assets/codex/02-验证安装.webp)
 
 
 > ℹ️ If you see `command not found`, make sure Node.js is installed (`node --version`), then re-run the install command.
