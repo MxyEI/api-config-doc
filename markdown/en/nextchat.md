@@ -18,9 +18,9 @@ NextChat supports three protocols with Look2Eye:
 
 | Protocol | Provider | Endpoint | Supported Models |
 | --- | --- | --- | --- |
-| **OpenAI Chat** | OpenAI | `https://api.api.look2eye.com` | All models (with `provider/` prefix) |
-| **Anthropic** | Anthropic | `https://api.api.look2eye.com/anthropic` | Claude series |
-| **Google Gemini** | Google | `https://api.api.look2eye.com/gemini` | Gemini series |
+| **OpenAI Chat** | OpenAI | `https://api.look2eye.com` | All models (with `provider/` prefix) |
+| **Anthropic** | Anthropic | `https://api.look2eye.com/anthropic` | Claude series |
+| **Google Gemini** | Google | `https://api.look2eye.com/gemini` | Gemini series |
 
 
 ## Prerequisites
@@ -57,7 +57,7 @@ Fill in the configuration based on your chosen provider:
 | Field | Value |
 | --- | --- |
 | **Model Provider** | OpenAI |
-| **API Endpoint** | `https://api.api.look2eye.com` |
+| **API Endpoint** | `https://api.look2eye.com` |
 | **API Key** | Your Look2Eye API Key |
 | **Custom Model Names** | e.g. `openai/gpt-5.3-chat,anthropic/claude-sonnet-4.6,deepseek/deepseek-v3.2` |
 
@@ -68,7 +68,7 @@ Fill in the configuration based on your chosen provider:
 | Field | Value |
 | --- | --- |
 | **Model Provider** | Anthropic |
-| **API Endpoint** | `https://api.api.look2eye.com/anthropic` |
+| **API Endpoint** | `https://api.look2eye.com/anthropic` |
 | **API Key** | Your Look2Eye API Key |
 | **Custom Model Names** | e.g. `claude-sonnet-4.6,claude-opus-4.6,claude-haiku-4.5` |
 
@@ -79,7 +79,7 @@ Fill in the configuration based on your chosen provider:
 | Field | Value |
 | --- | --- |
 | **Model Provider** | Google |
-| **API Endpoint** | `https://api.api.look2eye.com/gemini` |
+| **API Endpoint** | `https://api.look2eye.com/gemini` |
 | **API Key** | Your Look2Eye API Key |
 | **Custom Model Names** | e.g. `google/gemini-3.1-pro-preview,google/gemini-3.1-flash-lite-preview` |
 
@@ -90,7 +90,7 @@ Fill in the configuration based on your chosen provider:
 > ℹ️ The **Custom Model Names** field supports multiple models separated by commas. These models will appear in the **Model** dropdown for selection.
 
 
-> ⚠️ When using the OpenAI provider, set the API Endpoint to `https://api.api.look2eye.com` (without `/v1`). NextChat appends the path automatically. Using `https://api.api.look2eye.com/v1` will cause a duplicate path error.
+> ⚠️ When using the OpenAI provider, set the API Endpoint to `https://api.look2eye.com` (without `/v1`). NextChat appends the path automatically. Using `https://api.look2eye.com/v1` will cause a duplicate path error.
 
 
 ### Step 3: Select a Model
@@ -135,7 +135,7 @@ The model name is incorrect or your account doesn’t have access to that model.
 **Q: Error `Unsupported OpenAI API endpoint`**
 
 
-The API Endpoint is set to `https://api.api.look2eye.com/v1`, causing a duplicate path. Change it to `https://api.api.look2eye.com` (without `/v1`).
+The API Endpoint is set to `https://api.look2eye.com/v1`, causing a duplicate path. Change it to `https://api.look2eye.com` (without `/v1`).
 
 
 **Q: Can the OpenAI provider call Claude and Gemini models?**

@@ -32,7 +32,7 @@ from llama_index.llms.openai_like import OpenAILike
 
 llm = OpenAILike(
     model="openai/gpt-4.1",
-    api_base="https://api.api.look2eye.com/v1",
+    api_base="https://api.look2eye.com/v1",
     api_key="<你的 LOOK2EYE_API_KEY>",
     is_chat_model=True
 )
@@ -51,7 +51,7 @@ python3 -W ignore test_llamaindex.py
 
 ## 可用模型示例
 
-推荐模型请参考 [Look2Eye 模型广场](https://api.look2eye.com/models) 。
+推荐模型请参考 [Look2Eye 可用渠道](https://api.look2eye.com/available-channels) 。
 
 > ℹ️ LlamaIndex 的具体 API 可能随版本更新变化，请参考 [LlamaIndex 官方文档](https://docs.llamaindex.ai) 。
 

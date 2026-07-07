@@ -28,10 +28,10 @@ Immersive Translate supports three protocols with Look2Eye:
 
 | Protocol | Setup Method | Custom API Endpoint | Supported Models |
 | --- | --- | --- | --- |
-| **OpenAI Chat** | Custom service | `https://api.api.look2eye.com/v1/chat/completions` | All models |
-| **OpenAI Response** | Custom service | `https://api.api.look2eye.com/v1/responses` | All models |
-| **Claude** | Built-in Claude provider | `https://api.api.look2eye.com/anthropic` | Claude series |
-| **Gemini (via OpenAI Chat)** | Custom service | `https://api.api.look2eye.com/v1/chat/completions` | Gemini series |
+| **OpenAI Chat** | Custom service | `https://api.look2eye.com/v1/chat/completions` | All models |
+| **OpenAI Response** | Custom service | `https://api.look2eye.com/v1/responses` | All models |
+| **Claude** | Built-in Claude provider | `https://api.look2eye.com/anthropic` | Claude series |
+| **Gemini (via OpenAI Chat)** | Custom service | `https://api.look2eye.com/v1/chat/completions` | Gemini series |
 
 
 > ℹ️ The built-in Gemini provider in Immersive Translate uses `x-goog-api-key` authentication, which is incompatible with Look2Eye’s `Authorization: Bearer` method. To use Gemini models, use the OpenAI Chat custom service and enter the Gemini model name in the custom model field (e.g. `google/gemini-3.1-flash-lite-preview`, `google/gemini-3.1-pro-preview`, etc.).
@@ -76,7 +76,7 @@ Fill in the details based on your chosen protocol:
 | Field | Value |
 | --- | --- |
 | **Service Name** | `look2eye` (or any name) |
-| **Custom API Endpoint** | `https://api.api.look2eye.com/v1/chat/completions` |
+| **Custom API Endpoint** | `https://api.look2eye.com/v1/chat/completions` |
 | **API Key** | Your Look2Eye API Key |
 | **Model** | Check “Enter custom model name”, e.g. `openai/gpt-4.1` |
 
@@ -87,7 +87,7 @@ Fill in the details based on your chosen protocol:
 | Field | Value |
 | --- | --- |
 | **Service Name** | `look2eye-response` (or any name) |
-| **Custom API Endpoint** | `https://api.api.look2eye.com/v1/responses` |
+| **Custom API Endpoint** | `https://api.look2eye.com/v1/responses` |
 | **API Key** | Your Look2Eye API Key |
 | **Model** | Check “Enter custom model name”, e.g. `openai/gpt-4.1` |
 
@@ -101,7 +101,7 @@ Use the built-in **Claude** provider — no need to add a custom service:
 | Field | Value |
 | --- | --- |
 | **API Key** | Your Look2Eye API Key |
-| **Custom API Endpoint** | `https://api.api.look2eye.com/anthropic` |
+| **Custom API Endpoint** | `https://api.look2eye.com/anthropic` |
 | **Model** | Check “Enter custom model name”, fill in `claude-sonnet-4.6` |
 
 

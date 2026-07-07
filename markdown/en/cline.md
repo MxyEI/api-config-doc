@@ -47,7 +47,7 @@ Fill in the following information on the API Configuration page, then click **Do
 | Field | Value |
 | --- | --- |
 | **API Provider** | `OpenAI Compatible` |
-| **Base URL** | `https://api.api.look2eye.com/v1` |
+| **Base URL** | `https://api.look2eye.com/v1` |
 | **OpenAI Compatible API Key** | Your Look2Eye API Key |
 | **Model ID** | `openai/gpt-4.1` (or another model) |
 
@@ -55,7 +55,7 @@ Fill in the following information on the API Configuration page, then click **Do
 ![Fill in configuration](../assets/cline/03-fill-in-configuration.webp)
 
 
-> ℹ️ Cline also supports Anthropic and Gemini protocols. The corresponding Base URLs are `https://api.api.look2eye.com/anthropic` and `https://api.api.look2eye.com/gemini`.
+> ℹ️ Cline also supports Anthropic and Gemini protocols. The corresponding Base URLs are `https://api.look2eye.com/anthropic` and `https://api.look2eye.com/gemini`.
 
 
 ## Recommended Models
@@ -76,4 +76,4 @@ Make sure the Model ID format is correct. When using OpenAI Compatible, the mode
 **Q: Unable to use Tool Use feature**
 
 
-Switch the API Provider to Anthropic and change the Base URL to `https://api.api.look2eye.com/anthropic` for full Tool Use support.
+Switch the API Provider to Anthropic and change the Base URL to `https://api.look2eye.com/anthropic` for full Tool Use support.

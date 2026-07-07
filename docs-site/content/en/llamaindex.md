@@ -42,7 +42,7 @@ from llama_index.llms.openai_like import OpenAILike
 
 llm = OpenAILike(
     model="openai/gpt-4.1",
-    api_base="https://api.api.look2eye.com/v1",
+    api_base="https://api.look2eye.com/v1",
     api_key="<YOUR_LOOK2EYE_API_KEY>",
     is_chat_model=True
 )

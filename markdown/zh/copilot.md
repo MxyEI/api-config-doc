@@ -40,10 +40,9 @@ OAICopilot: Open Configuration UI
 
 | 配置项 | 值 |
 | --- | --- |
-| **Global Base URL** | `https://api.api.look2eye.com/v1` |
+| **Global Base URL** | `https://api.look2eye.com` |
 | **Global API Key** | 你的 Look2Eye API Key |
 
-![填写 Global Base URL 和 API Key 并保存](../assets/copilot/03-填写-global-base-url-和-api-key-并保存.webp)
 
 ### 第 4 步：添加 Provider
 
@@ -52,7 +51,7 @@ OAICopilot: Open Configuration UI
 | 字段 | 值 |
 | --- | --- |
 | **Provider ID**（标注 ②） | `look2eye` |
-| **Base URL**（标注 ③） | `https://api.api.look2eye.com` |
+| **Base URL**（标注 ③） | `https://api.look2eye.com` |
 | **API Key**（标注 ④） | 你的 Look2Eye API Key |
 | **API Mode**（标注 ⑤） | `Anthropic` |
 
@@ -69,7 +68,7 @@ OAICopilot: Open Configuration UI
 
 ![添加自定义模型](../assets/copilot/05-添加自定义模型.webp)
 
-可重复此步骤添加多个模型，模型 ID 请参考 [Look2Eye 模型广场](https://api.look2eye.com/models) 。
+可重复此步骤添加多个模型，模型 ID 请参考 [Look2Eye 可用渠道](https://api.look2eye.com/available-channels) 。
 
 ### 第 6 步：在聊天面板选择模型
 
@@ -107,7 +106,7 @@ OAICopilot: Open Configuration UI
 
 检查以下几点：
 
-1.  Global Base URL 是否为 `https://api.api.look2eye.com/v1`（末尾不加斜杠）
+1.  Global Base URL 是否为 `https://api.look2eye.com/v1`（末尾不加斜杠）
 2.  API Key 是否从 [Look2Eye 控制台](https://api.look2eye.com/keys)  完整复制（无前后空格）
 3.  Provider 的 API Mode 是否选择了 `Anthropic`
 

@@ -12,9 +12,9 @@ Look2Eye 兼容 OpenAI / Anthropic / Gemini 三大协议，理论上支持任何
 
 | 工具使用的协议 | Base URL | API Key Header |
 | --- | --- | --- |
-| OpenAI 兼容 | `https://api.api.look2eye.com/v1` | `Authorization: Bearer sk-xxx` |
-| Anthropic 原生 | `https://api.api.look2eye.com/anthropic` | `x-api-key: sk-xxx` |
-| Gemini 原生 | `https://api.api.look2eye.com/gemini` | `x-goog-api-key: sk-xxx` |
+| OpenAI 兼容 | `https://api.look2eye.com/v1` | `Authorization: Bearer sk-xxx` |
+| Anthropic 原生 | `https://api.look2eye.com/anthropic` | `x-api-key: sk-xxx` |
+| Gemini 原生 | `https://api.look2eye.com/gemini` | `x-goog-api-key: sk-xxx` |
 
 ## Continue (VS Code / JetBrains)
 
@@ -27,14 +27,14 @@ Look2Eye 兼容 OpenAI / Anthropic / Gemini 三大协议，理论上支持任何
       "title": "Look2Eye GPT-4o",
       "provider": "openai",
       "model": "openai/gpt-4o",
-      "apiBase": "https://api.api.look2eye.com/v1",
+      "apiBase": "https://api.look2eye.com/v1",
       "apiKey": "<你的 LOOK2EYE_API_KEY>"
     },
     {
       "title": "Look2Eye Claude Sonnet",
       "provider": "openai",
       "model": "anthropic/claude-sonnet-4.6",
-      "apiBase": "https://api.api.look2eye.com/v1",
+      "apiBase": "https://api.look2eye.com/v1",
       "apiKey": "<你的 LOOK2EYE_API_KEY>"
     }
   ]
@@ -47,7 +47,7 @@ Look2Eye 兼容 OpenAI / Anthropic / Gemini 三大协议，理论上支持任何
 
 ```bash filename="~/.zshrc"
 export OPENAI_API_KEY=<你的 LOOK2EYE_API_KEY>
-export OPENAI_API_BASE=https://api.api.look2eye.com/v1
+export OPENAI_API_BASE=https://api.look2eye.com/v1
 ```
 
 ```bash
@@ -60,7 +60,7 @@ aider --model openai/gpt-4o
 
 1.  打开 BoltAI → **Preferences** → **Providers**
 2.  添加 **Custom OpenAI**
-3.  填写 Base URL: `https://api.api.look2eye.com/v1`
+3.  填写 Base URL: `https://api.look2eye.com/v1`
 4.  填写 API Key
 
 ## TypingMind
@@ -68,7 +68,7 @@ aider --model openai/gpt-4o
 [TypingMind](https://typingmind.com)  是一款 AI 聊天界面工具。
 
 1.  进入 **Settings** → **Custom Endpoint**
-2.  API Endpoint: `https://api.api.look2eye.com/v1`
+2.  API Endpoint: `https://api.look2eye.com/v1`
 3.  API Key: 你的 Look2Eye API Key
 
 ## ChatBox
@@ -77,7 +77,7 @@ aider --model openai/gpt-4o
 
 1.  打开 ChatBox → **设置** → **AI 提供商**
 2.  选择 **OpenAI API 兼容**
-3.  API 域名: `https://api.api.look2eye.com`
+3.  API 域名: `https://api.look2eye.com`
 4.  API Key: 你的 Look2Eye API Key
 
 ## 自定义集成
@@ -85,7 +85,7 @@ aider --model openai/gpt-4o
 对于其他未列出的工具，一般遵循以下步骤：
 
 1.  找到工具的 API 配置设置
-2.  将 API Base URL 设置为 `https://api.api.look2eye.com/v1`
+2.  将 API Base URL 设置为 `https://api.look2eye.com/v1`
 3.  将 API Key 设置为你的 Look2Eye Key
 4.  模型名称使用 `provider/model-name` 格式
 

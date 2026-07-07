@@ -61,7 +61,7 @@ In the wizard, select **Custom Provider** and enter the following:
 | Setting | Value |
 | --- | --- |
 | **Provider Type** | `anthropic-messages` |
-| **Base URL** | `https://api.api.look2eye.com/anthropic` |
+| **Base URL** | `https://api.look2eye.com/anthropic` |
 | **API Key** | Your Look2Eye API Key |
 | **Model** | `anthropic/claude-sonnet-4.6` |
 
@@ -97,19 +97,19 @@ Providers are defined under `models.providers`. Each provider needs an API proto
   "models": {
     "providers": {
       "look2eye-anthropic": {
-        "baseUrl": "https://api.api.look2eye.com/anthropic",
+        "baseUrl": "https://api.look2eye.com/anthropic",
         "apiKey": "${LOOK2EYE_API_KEY}",
         "api": "anthropic-messages",
         "models": []
       },
       "look2eye-openai": {
-        "baseUrl": "https://api.api.look2eye.com/v1",
+        "baseUrl": "https://api.look2eye.com/v1",
         "apiKey": "${LOOK2EYE_API_KEY}",
         "api": "openai-responses",
         "models": []
       },
       "look2eye-gemini": {
-        "baseUrl": "https://api.api.look2eye.com/gemini",
+        "baseUrl": "https://api.look2eye.com/gemini",
         "apiKey": "${LOOK2EYE_API_KEY}",
         "api": "google-generative-ai",
         "models": []
@@ -139,7 +139,7 @@ Models are defined in the `models` array of their corresponding provider. We pro
   "models": {
     "providers": {
       "look2eye-anthropic": {
-        "baseUrl": "https://api.api.look2eye.com/anthropic",
+        "baseUrl": "https://api.look2eye.com/anthropic",
         "apiKey": "${LOOK2EYE_API_KEY}",
         "api": "anthropic-messages",
         "models": [
@@ -191,7 +191,7 @@ Models are defined in the `models` array of their corresponding provider. We pro
   "models": {
     "providers": {
       "look2eye-openai": {
-        "baseUrl": "https://api.api.look2eye.com/v1",
+        "baseUrl": "https://api.look2eye.com/v1",
         "apiKey": "${LOOK2EYE_API_KEY}",
         "api": "openai-responses",
         "models": [
@@ -236,7 +236,7 @@ Models are defined in the `models` array of their corresponding provider. We pro
   "models": {
     "providers": {
       "look2eye-openai": {
-        "baseUrl": "https://api.api.look2eye.com/v1",
+        "baseUrl": "https://api.look2eye.com/v1",
         "apiKey": "${LOOK2EYE_API_KEY}",
         "api": "openai-responses",
         "models": [
@@ -335,7 +335,7 @@ Here’s a complete `openclaw.json` combining Provider, Models, and Agents confi
   "models": {
     "providers": {
       "look2eye-anthropic": {
-        "baseUrl": "https://api.api.look2eye.com/anthropic",
+        "baseUrl": "https://api.look2eye.com/anthropic",
         "apiKey": "${LOOK2EYE_API_KEY}",
         "api": "anthropic-messages",
         "models": [
@@ -364,7 +364,7 @@ Here’s a complete `openclaw.json` combining Provider, Models, and Agents confi
         ]
       },
       "look2eye-gemini": {
-        "baseUrl": "https://api.api.look2eye.com/gemini",
+        "baseUrl": "https://api.look2eye.com/gemini",
         "apiKey": "${LOOK2EYE_API_KEY}",
         "api": "google-generative-ai",
         "models": [
@@ -448,9 +448,9 @@ Once configured, send commands to OpenClaw through your messaging app:
 Verify the `baseUrl` configuration is correct:
 
 
-- Anthropic protocol: `https://api.api.look2eye.com/anthropic`
-- OpenAI-Response protocol: `https://api.api.look2eye.com/v1`
-- Gemini protocol: `https://api.api.look2eye.com/gemini`
+- Anthropic protocol: `https://api.look2eye.com/anthropic`
+- OpenAI-Response protocol: `https://api.look2eye.com/v1`
+- Gemini protocol: `https://api.look2eye.com/gemini`
 
 
 **Model not found**

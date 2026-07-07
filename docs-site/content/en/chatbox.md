@@ -45,10 +45,10 @@ In the dialog that appears, enter a name and select the corresponding **API Mode
 
 | API Mode | API Host | Example Models |
 | --- | --- | --- |
-| OpenAI API Compatible | `https://api.api.look2eye.com/v1` | `openai/gpt-4.1`, `openai/gpt-5.3-chat` |
-| OpenAI Responses API Compatible | `https://api.api.look2eye.com/v1` | `openai/gpt-4.1`, `openai/gpt-5.3-chat` |
-| Anthropic Claude API Compatible | `https://api.api.look2eye.com/anthropic/v1` | `anthropic/claude-sonnet-4.6`, `anthropic/claude-opus-4.6` |
-| Google Gemini API Compatible | `https://api.api.look2eye.com/gemini` | `gemini-2.5-flash`, `gemini-3.1-pro-preview` |
+| OpenAI API Compatible | `https://api.look2eye.com/v1` | `openai/gpt-4.1`, `openai/gpt-5.3-chat` |
+| OpenAI Responses API Compatible | `https://api.look2eye.com/v1` | `openai/gpt-4.1`, `openai/gpt-5.3-chat` |
+| Anthropic Claude API Compatible | `https://api.look2eye.com/anthropic/v1` | `anthropic/claude-sonnet-4.6`, `anthropic/claude-opus-4.6` |
+| Google Gemini API Compatible | `https://api.look2eye.com/gemini` | `gemini-2.5-flash`, `gemini-3.1-pro-preview` |
 
 
 Click **Add** when done.
@@ -111,7 +111,7 @@ Launch Chatbox, go to Settings, tap **+ Add Model Provider**, and fill in the co
 - **Name**: A custom name (e.g. “look2eye”)
 - **API Mode**: Select the one you need (e.g. Claude API Compatible)
 - **API Key**: Paste your Look2Eye API Key
-- **API Host**: Enter the corresponding API address (e.g. for Claude: `https://api.api.look2eye.com/anthropic/v1`)
+- **API Host**: Enter the corresponding API address (e.g. for Claude: `https://api.look2eye.com/anthropic/v1`)
 
 
 <img src="/docs/images/en/integrations/chatbox/08-09-mobile-settings.webp" alt="" width="200" />

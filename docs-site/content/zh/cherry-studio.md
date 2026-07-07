@@ -72,7 +72,7 @@ Cherry Studio 支持通过以下四种协议接入 Look2Eye：
 | 配置项 | 值 |
 | --- | --- |
 | **API 密钥** | 你的 Look2Eye API Key |
-| **API 地址** | `https://api.api.look2eye.com/v1` |
+| **API 地址** | `https://api.look2eye.com` |
 
 ![OpenAI Chat 配置](/assets/cherry-studio/06-openai-chat-配置.webp)
 
@@ -81,7 +81,7 @@ Cherry Studio 支持通过以下四种协议接入 Look2Eye：
 | 配置项 | 值 |
 | --- | --- |
 | **API 密钥** | 你的 Look2Eye API Key |
-| **API 地址** | `https://api.api.look2eye.com/v1` |
+| **API 地址** | `https://api.look2eye.com` |
 
 ![OpenAI Response 配置](/assets/cherry-studio/07-openai-response-配置.webp)
 
@@ -90,7 +90,7 @@ Cherry Studio 支持通过以下四种协议接入 Look2Eye：
 | 配置项 | 值 |
 | --- | --- |
 | **API 密钥** | 你的 Look2Eye API Key |
-| **API 地址** | `https://api.api.look2eye.com/anthropic` |
+| **API 地址** | `https://api.look2eye.com` |
 
 ![Claude 配置](/assets/cherry-studio/08-claude-配置.webp)
 
@@ -99,7 +99,7 @@ Cherry Studio 支持通过以下四种协议接入 Look2Eye：
 | 配置项 | 值 |
 | --- | --- |
 | **API 密钥** | 你的 Look2Eye API Key |
-| **API 地址** | `https://api.api.look2eye.com/gemini` |
+| **API 地址** | `https://api.look2eye.com` |
 
 ![Gemini 配置](/assets/cherry-studio/09-gemini-配置.webp)
 
@@ -167,7 +167,7 @@ Cherry Studio 支持通过 Gemini 协议调用 Look2Eye 的图片生成模型，
 
 ### 第 2 步：配置并获取生图模型
 
-API 地址填写 `https://api.api.look2eye.com/gemini`，点击 **获取模型列表**，添加以下生图模型：
+API 地址填写 `https://api.look2eye.com/gemini`，点击 **获取模型列表**，添加以下生图模型：
 
 -   `Google: Nano Banana Pro (Gemini 3 Pro Image Preview)`
 -   `Google: Nano Banana (Gemini 2.5 Flash Image)`

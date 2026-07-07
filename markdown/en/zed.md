@@ -52,7 +52,7 @@ Add visually through the Agent Panel without editing JSON.
 | Label | Field | Value |
 | --- | --- | --- |
 | ① | Provider Name | `Look2Eye` |
-| ② | API URL | `https://api.api.look2eye.com/v1` |
+| ② | API URL | `https://api.look2eye.com/v1` |
 | ③ | API Key | Your Look2Eye API Key |
 | ④ | Model Name | `openai/gpt-5.4-mini` |
 | ⑤ | Max Completion Tokens | `512000` |
@@ -75,7 +75,7 @@ Batch-configure all models via `settings.json`.
   "language_models": {
     "openai_compatible": {
       "Look2Eye": {
-        "api_url": "https://api.api.look2eye.com/v1",
+        "api_url": "https://api.look2eye.com/v1",
         "available_models": [
           {
             "name": "openai/gpt-5.3-codex",
@@ -187,7 +187,7 @@ Each model requires the following parameters:
 ### Pro Tip
 
 
-Manually filling parameters too slow? Click **Copy Page** in the top right of this page (or send this page URL directly), along with `https://api.api.look2eye.com/v1/models`, to an AI and have it auto-generate the complete `settings.json` configuration.
+Manually filling parameters too slow? Click **Copy Page** in the top right of this page (or send this page URL directly), along with `https://api.look2eye.com/v1/models`, to an AI and have it auto-generate the complete `settings.json` configuration.
 
 
 Go to settings → Click **Edit in settings.json** in the top right to paste:

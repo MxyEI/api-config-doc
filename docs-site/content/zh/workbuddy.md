@@ -34,7 +34,7 @@ description: "在 WorkBuddy 中添加 Look2Eye 自定义模型供应商，并配
 | 配置项 | 值 |
 | --- | --- |
 | **提供商** | `自定义 / Custom` |
-| **接口地址** | `https://api.api.look2eye.com/v1/chat/completions` |
+| **接口地址** | `https://api.look2eye.com/v1/chat/completions` |
 | **API KEY** | 你的 Look2Eye API Key |
 | **模型名称** | 想使用的模型 ID，如 `openai/gpt-5.4-mini` |
 
@@ -80,4 +80,4 @@ description: "在 WorkBuddy 中添加 Look2Eye 自定义模型供应商，并配
 
 **Q: 请求失败或提示接口错误**
 
-检查接口地址是否填写完整（`https://api.api.look2eye.com/v1/chat/completions`），以及 API KEY 是否从 [Look2Eye 控制台](https://api.look2eye.com/keys)  完整复制，无多余空格。
+检查接口地址是否填写完整（`https://api.look2eye.com/v1/chat/completions`），以及 API KEY 是否从 [Look2Eye 控制台](https://api.look2eye.com/keys)  完整复制，无多余空格。

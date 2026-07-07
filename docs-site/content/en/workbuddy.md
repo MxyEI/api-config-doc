@@ -47,7 +47,7 @@ In the “Add Model” dialog, fill in the following:
 | Field | Value |
 | --- | --- |
 | **Provider** | `Custom` |
-| **API Endpoint** | `https://api.api.look2eye.com/v1/chat/completions` |
+| **API Endpoint** | `https://api.look2eye.com/v1/chat/completions` |
 | **API KEY** | Your Look2Eye API Key |
 | **Model Name** | The model ID you want, e.g. `openai/gpt-5.4-mini` |
 
@@ -113,4 +113,4 @@ Try restarting WorkBuddy. Newly added models will appear under the “Custom Mod
 **Q: Request fails or API error**
 
 
-Check that the API endpoint is complete (`https://api.api.look2eye.com/v1/chat/completions`) and that the API KEY was copied in full from the [Look2Eye Console](https://api.look2eye.com/keys) with no extra spaces.
+Check that the API endpoint is complete (`https://api.look2eye.com/v1/chat/completions`) and that the API KEY was copied in full from the [Look2Eye Console](https://api.look2eye.com/keys) with no extra spaces.

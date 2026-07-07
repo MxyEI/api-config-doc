@@ -37,7 +37,7 @@ OpenCode supports multiple Provider configurations. The OpenAI-compatible mode i
 ```text filename="~/.zshrc"
 # OpenAI-compatible mode
 export OPENAI_API_KEY=<your LOOK2EYE_API_KEY>
-export OPENAI_BASE_URL=https://api.api.look2eye.com/v1
+export OPENAI_BASE_URL=https://api.look2eye.com/v1
 ```
 
 
@@ -46,7 +46,7 @@ If you primarily use Claude models, you can also configure Anthropic mode:
 
 ```text filename="~/.zshrc"
 export ANTHROPIC_API_KEY=<your LOOK2EYE_API_KEY>
-export ANTHROPIC_BASE_URL=https://api.api.look2eye.com/anthropic
+export ANTHROPIC_BASE_URL=https://api.look2eye.com/anthropic
 ```
 
 
@@ -59,7 +59,7 @@ You can also configure via OpenCode’s configuration file:
 ```toml filename="~/.config/opencode/config.toml"
 [providers.look2eye]
 api_key = "<your LOOK2EYE_API_KEY>"
-base_url = "https://api.api.look2eye.com/v1"
+base_url = "https://api.look2eye.com/v1"
 
 [models.default]
 provider = "look2eye"

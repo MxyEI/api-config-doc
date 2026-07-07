@@ -26,7 +26,7 @@ from openai import OpenAI
 
 # Now: through Look2Eye
 client = OpenAI(
-    base_url="https://api.api.look2eye.com/v1",    # Added
+    base_url="https://api.look2eye.com/v1",    # Added
     api_key="<your LOOK2EYE_API_KEY>"       # Replaced
 )
 
@@ -46,7 +46,7 @@ response = client.chat.completions.create(
 
 // Now: through Look2Eye
 const client = new OpenAI({
-  baseURL: 'https://api.api.look2eye.com/v1',      // Added
+  baseURL: 'https://api.look2eye.com/v1',      // Added
   apiKey: '<your LOOK2EYE_API_KEY>'         // Replaced
 })
 
@@ -99,7 +99,7 @@ Look2Eye supports the following OpenAI API features:
 from langchain_openai import ChatOpenAI
 
 llm = ChatOpenAI(
-    base_url="https://api.api.look2eye.com/v1",
+    base_url="https://api.look2eye.com/v1",
     api_key="<your LOOK2EYE_API_KEY>",
     model="openai/gpt-4o"
 )
@@ -113,7 +113,7 @@ llm = ChatOpenAI(
 from llama_index.llms.openai import OpenAI
 
 llm = OpenAI(
-    api_base="https://api.api.look2eye.com/v1",
+    api_base="https://api.look2eye.com/v1",
     api_key="<your LOOK2EYE_API_KEY>",
     model="openai/gpt-4o"
 )
@@ -126,7 +126,7 @@ llm = OpenAI(
 ```python
 
 const look2eye = createOpenAI({
-  baseURL: 'https://api.api.look2eye.com/v1',
+  baseURL: 'https://api.look2eye.com/v1',
   apiKey: '<your LOOK2EYE_API_KEY>'
 })
 

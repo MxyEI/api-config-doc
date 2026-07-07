@@ -33,7 +33,7 @@ Gemini CLI uses the Gemini native protocol. Point it to Look2Eye via the configu
 ```json filename="~/.gemini/settings.json"
 {
   "apiKey": "<your LOOK2EYE_API_KEY>",
-  "baseUrl": "https://api.api.look2eye.com/gemini"
+  "baseUrl": "https://api.look2eye.com/gemini"
 }
 ```
 

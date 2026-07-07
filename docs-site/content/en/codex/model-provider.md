@@ -80,7 +80,7 @@ Fill in the fields as shown below, then click **+ Add** to complete.
 | ❶ Provider Name | `look2eye` | Recommended name, easier to match with the WebSocket settings |
 | ❷ Website URL | `https://api.look2eye.com` | Provider website |
 | ❸ API Key | Your Look2Eye API Key | Get it at [api.look2eye.com/keys](https://api.look2eye.com/keys) |
-| ❹ Request URL | `https://api.api.look2eye.com/v1` | Do not add a trailing slash |
+| ❹ Request URL | `https://api.look2eye.com/v1` | Do not add a trailing slash |
 | ❺ API Format | `OpenAI Compatible` | Select OpenAI compatible format |
 | ❻ Write to Global Config | ✅ Checked | Writes to global config, applies to all projects |
 
@@ -143,4 +143,4 @@ Confirm the API Key is correctly filled in and the request URL has no trailing s
 **Q: Connection timeout**
 
 
-Verify the request URL is `https://api.api.look2eye.com/v1` with no trailing slash.
+Verify the request URL is `https://api.look2eye.com/v1` with no trailing slash.

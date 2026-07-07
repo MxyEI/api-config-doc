@@ -31,7 +31,7 @@ from langchain_openai import ChatOpenAI
 llm = ChatOpenAI(
     model="openai/gpt-5.4-mini",
     api_key="YOUR_LOOK2EYE_API_KEY",
-    base_url="https://api.api.look2eye.com/v1",
+    base_url="https://api.look2eye.com",
 )
 
 response = llm.invoke("用一句话介绍 Look2Eye Gateway")
@@ -52,7 +52,7 @@ const llm = new ChatOpenAI({
   model: "openai/gpt-5.4-mini",
   apiKey: "YOUR_LOOK2EYE_API_KEY",
   configuration: {
-    baseURL: "https://api.api.look2eye.com/v1",
+    baseURL: "https://api.look2eye.com/v1",
   },
 });
 
@@ -64,7 +64,7 @@ console.log(response.content);
 
 ## 可用模型示例
 
-推荐模型请参考 [Look2Eye 模型广场](https://api.look2eye.com/models) 。
+推荐模型请参考 [Look2Eye 可用渠道](https://api.look2eye.com/available-channels) 。
 
 ## 常见问题
 

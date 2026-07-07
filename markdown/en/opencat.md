@@ -52,7 +52,7 @@ Fill in the following:
 
 | Field | Value |
 | --- | --- |
-| **Base URL** | `https://api.api.look2eye.com/v1` |
+| **Base URL** | `https://api.look2eye.com/v1` |
 | **API Key** | Your Look2Eye API Key |
 | **Custom Models** | Enter model names manually, e.g. `openai/gpt-4.1` |
 
@@ -93,7 +93,7 @@ For recommended models, see the [Look2Eye Model Marketplace](https://api.look2ey
 **Q: Validation fails**
 
 
-1. Make sure Base URL is `https://api.api.look2eye.com/v1` (no trailing slash)
+1. Make sure Base URL is `https://api.look2eye.com/v1` (no trailing slash)
 2. Make sure your API Key is copied in full from the [Look2Eye Console](https://api.look2eye.com/keys) with no extra spaces
 3. Check your network connection
 

@@ -71,7 +71,7 @@ chmod +x CC-Switch-*.AppImage && ./CC-Switch-*.AppImage
 | ❶ 供应商名称 | `look2eye-claude` | 自定义，方便识别 |
 | ❷ 官网链接 | `https://api.look2eye.com` | 供应商官网 |
 | ❸ API Key | 你的 Look2Eye API Key | 在 [api.look2eye.com/keys](https://api.look2eye.com/keys) 获取 |
-| ❹ 请求地址 | `https://api.api.look2eye.com/anthropic` | 末尾不要加斜杠 |
+| ❹ 请求地址 | `https://api.look2eye.com` | 末尾不要加斜杠 |
 | ❺ API 格式 / 认证字段 | `Anthropic Messages (原生)` / `ANTHROPIC_AUTH_TOKEN（默认）` | 保持默认 |
 | ❻ 模型配置 | 留空 | 留空使用默认 Claude 模型 |
 | ❼ 选项 | 勾选「隐藏 AI 署名」和「Teammates 模式」 | 按需勾选 |
@@ -83,7 +83,7 @@ chmod +x CC-Switch-*.AppImage && ./CC-Switch-*.AppImage
 
 添加完成后回到列表，选中 `look2eye-claude`，点击**使用**按钮，看到「切换成功」提示即完成。
 
-![CC Switch 启用供应商](/assets/claude-code/03-cc-switch-启用供应商.webp)
+
 
 ## 3\. 验证配置
 
@@ -106,19 +106,17 @@ claude
 
 ### 步骤一：筛选兼容模型
 
-前往 [Look2Eye 模型广场](https://api.look2eye.com/models) ，在左侧 **API 协议** 中选择 **Anthropic**，筛选出支持 Anthropic 协议的模型。
+前往 [Look2Eye 可用渠道](https://api.look2eye.com/available-channels) ，在左侧 **API 协议** 中选择 **Anthropic**，筛选出支持 Anthropic 协议的模型。
 
-![模型广场筛选 Anthropic 协议](/assets/claude-code/05-模型广场筛选-anthropic-协议.webp)
 
 ### 步骤二：复制模型名称
 
 点击目标模型卡片，模型名称旁有 **复制按钮**，一键复制模型 ID（如 `bailian/qwen3.6-plus`）。
 
-![一键复制模型名称](/assets/claude-code/06-一键复制模型名称.webp)
 
 ### 步骤三：配置模型映射
 
-回到 CC Switch，在供应商配置中找到 **模型映射** 部分。将复制的模型名称填入对应的模型槽位，可前往 [Look2Eye 模型广场](https://api.look2eye.com/models)  浏览可用模型：
+回到 CC Switch，在供应商配置中找到 **模型映射** 部分。将复制的模型名称填入对应的模型槽位，可前往 [Look2Eye 可用渠道](https://api.look2eye.com/available-channels)  浏览可用模型：
 
 | 映射槽位 | 说明 |
 | --- | --- |
@@ -142,7 +140,7 @@ claude
 
 确认以下关键字段：
 
--   **❶ Anthropic base URL** 为 `https://api.api.look2eye.com/anthropic`
+-   **❶ Anthropic base URL** 为 `https://api.look2eye.com`
 -   **❷ Model** 显示当前使用的模型
 
 ![Claude Code /status 输出](/assets/claude-code/07-claude-code-status-输出.webp)
@@ -153,7 +151,7 @@ claude
 
 **Q: 连接超时**
 
-确认请求地址填写为 `https://api.api.look2eye.com/anthropic`，末尾不带斜杠。
+确认请求地址填写为 `https://api.look2eye.com`，末尾不带斜杠。
 
 **Q: 流式响应卡顿**
 

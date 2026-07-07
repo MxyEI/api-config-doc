@@ -104,7 +104,7 @@ Fill in the API key and API address on the provider’s configuration page.
 | Field | Value |
 | --- | --- |
 | **API Key** | Your Look2Eye API Key |
-| **API Address** | `https://api.api.look2eye.com/v1` |
+| **API Address** | `https://api.look2eye.com/v1` |
 
 
 ![OpenAI Chat Configuration](/assets/cherry-studio/06-openai-chat-configuration.webp)
@@ -116,7 +116,7 @@ Fill in the API key and API address on the provider’s configuration page.
 | Field | Value |
 | --- | --- |
 | **API Key** | Your Look2Eye API Key |
-| **API Address** | `https://api.api.look2eye.com/v1` |
+| **API Address** | `https://api.look2eye.com/v1` |
 
 
 ![OpenAI Response Configuration](/assets/cherry-studio/07-openai-response-configuration.webp)
@@ -128,7 +128,7 @@ Fill in the API key and API address on the provider’s configuration page.
 | Field | Value |
 | --- | --- |
 | **API Key** | Your Look2Eye API Key |
-| **API Address** | `https://api.api.look2eye.com/anthropic` |
+| **API Address** | `https://api.look2eye.com/anthropic` |
 
 
 ![Claude Configuration](/assets/cherry-studio/08-claude-configuration.webp)
@@ -140,7 +140,7 @@ Fill in the API key and API address on the provider’s configuration page.
 | Field | Value |
 | --- | --- |
 | **API Key** | Your Look2Eye API Key |
-| **API Address** | `https://api.api.look2eye.com/gemini` |
+| **API Address** | `https://api.look2eye.com/gemini` |
 
 
 ![Gemini Configuration](/assets/cherry-studio/09-gemini-configuration.webp)
@@ -242,7 +242,7 @@ In the dialog, select **Gemini** as the provider type and click OK.
 ### Step 2: Configure and Fetch Image Models
 
 
-Set the API address to `https://api.api.look2eye.com/gemini`, then click **Fetch Model List** and add the following image generation models:
+Set the API address to `https://api.look2eye.com/gemini`, then click **Fetch Model List** and add the following image generation models:
 
 
 - `Google: Nano Banana Pro (Gemini 3 Pro Image Preview)`

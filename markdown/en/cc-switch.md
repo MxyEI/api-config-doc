@@ -29,7 +29,7 @@ Add a new provider in CC-Switch with the following configuration:
 | Configuration | Value |
 | --- | --- |
 | **Provider Name** | `look2eye-claude` (or custom name) |
-| **API Base URL** | `https://api.api.look2eye.com/v1` |
+| **API Base URL** | `https://api.look2eye.com/v1` |
 | **API Key** | Your Look2Eye API Key |
 
 
@@ -47,7 +47,7 @@ The image below shows how to configure usage query in CC-Switch:
 
 1. **Enable Usage Query** — Toggle the green switch on the right (see image marker ②)
 2. **API Key** — Enter your Look2Eye API Key (marker ③)
-3. **Request Endpoint** — Set to `https://api.api.look2eye.com/v1` (marker ④)
+3. **Request Endpoint** — Set to `https://api.look2eye.com/v1` (marker ④)
 4. **Template** — Select **Universal Template** for best compatibility
 
 

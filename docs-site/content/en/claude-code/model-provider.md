@@ -74,7 +74,7 @@ Fill in the fields as shown in the image below, then click **+ Add** to complete
 | ❶ Provider Name | `look2eye-claude` | Custom name for easy identification |
 | ❷ Website URL | `https://api.look2eye.com` | Provider website |
 | ❸ API Key | Your Look2Eye API Key | Get it at [api.look2eye.com/keys](https://api.look2eye.com/keys) |
-| ❹ Request URL | `https://api.api.look2eye.com/anthropic` | Do not add a trailing slash |
+| ❹ Request URL | `https://api.look2eye.com/anthropic` | Do not add a trailing slash |
 | ❺ API Format / Auth Field | `Anthropic Messages (Native)` / `ANTHROPIC_AUTH_TOKEN (Default)` | Keep defaults |
 | ❻ Model Configuration | Leave empty | Leave empty to use the default Claude model |
 | ❼ Options | Check “Hide AI Signature” and “Teammates Mode” | Check as needed |
@@ -172,7 +172,7 @@ If you encounter issues, run `/status` in the Claude Code terminal to check the 
 Verify the following key fields:
 
 
-- **❶ Anthropic base URL** is `https://api.api.look2eye.com/anthropic`
+- **❶ Anthropic base URL** is `https://api.look2eye.com/anthropic`
 - **❷ Model** shows the currently active model
 
 
@@ -188,7 +188,7 @@ Confirm the `Anthropic base URL` is correct and check that the API Key is valid.
 **Q: Connection timeout**
 
 
-Verify the request URL is `https://api.api.look2eye.com/anthropic` with no trailing slash.
+Verify the request URL is `https://api.look2eye.com/anthropic` with no trailing slash.
 
 
 **Q: Streaming response lag**

@@ -29,14 +29,14 @@ OpenCode 支持多种 Provider 配置。推荐使用 OpenAI 兼容模式：
 ```bash filename="~/.zshrc"
 # OpenAI 兼容模式
 export OPENAI_API_KEY=<你的 LOOK2EYE_API_KEY>
-export OPENAI_BASE_URL=https://api.api.look2eye.com/v1
+export OPENAI_BASE_URL=https://api.look2eye.com/v1
 ```
 
 如果主要使用 Claude 模型，也可以配置 Anthropic 模式：
 
 ```bash filename="~/.zshrc"
 export ANTHROPIC_API_KEY=<你的 LOOK2EYE_API_KEY>
-export ANTHROPIC_BASE_URL=https://api.api.look2eye.com/anthropic
+export ANTHROPIC_BASE_URL=https://api.look2eye.com/anthropic
 ```
 
 ### 3\. 配置文件
@@ -46,7 +46,7 @@ export ANTHROPIC_BASE_URL=https://api.api.look2eye.com/anthropic
 ```toml filename="~/.config/opencode/config.toml"
 [providers.look2eye]
 api_key = "<你的 LOOK2EYE_API_KEY>"
-base_url = "https://api.api.look2eye.com/v1"
+base_url = "https://api.look2eye.com/v1"
 
 [models.default]
 provider = "look2eye"

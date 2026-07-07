@@ -58,7 +58,7 @@ Fill in the GATEWAY CREDENTIALS section, then click **Apply locally**:
 
 | Field | Value |
 | --- | --- |
-| **Gateway base URL** | `https://api.api.look2eye.com/anthropic` |
+| **Gateway base URL** | `https://api.look2eye.com/anthropic` |
 | **Gateway API key** | Your Look2Eye API Key |
 | **Gateway auth scheme** | `x-api-key` |
 
@@ -114,7 +114,7 @@ You need to complete Step 1 first. The Developer menu only appears after Develop
 **Q: The status indicator didn’t turn green after clicking Apply locally / Connection failed**
 
 
-1. Confirm the Gateway base URL is `https://api.api.look2eye.com/anthropic` with no trailing slash
+1. Confirm the Gateway base URL is `https://api.look2eye.com/anthropic` with no trailing slash
 2. Confirm the Gateway auth scheme is set to `x-api-key`
 3. Confirm the API Key was copied in full from the [Look2Eye Console](https://api.look2eye.com/keys) with no extra spaces
 4. Check that your network connection is working

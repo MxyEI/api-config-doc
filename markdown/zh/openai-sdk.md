@@ -21,7 +21,7 @@ from openai import OpenAI
 
 # 现在：通过 Look2Eye
 client = OpenAI(
-    base_url="https://api.api.look2eye.com/v1",    # 新增
+    base_url="https://api.look2eye.com/v1",    # 新增
     api_key="<你的 LOOK2EYE_API_KEY>"       # 替换
 )
 
@@ -41,7 +41,7 @@ response = client.chat.completions.create(
 
 // 现在：通过 Look2Eye
 const client = new OpenAI({
-  baseURL: 'https://api.api.look2eye.com/v1',      // 新增
+  baseURL: 'https://api.look2eye.com/v1',      // 新增
   apiKey: '<你的 LOOK2EYE_API_KEY>'         // 替换
 })
 
@@ -59,7 +59,7 @@ Look2Eye 使用 `provider/model-name` 格式标识模型：
 | `gpt-5.2` | `openai/gpt-5.4-mini` |
 | `text-embedding-3-small` | `openai/text-embedding-3-small` |
 
-通过 Look2Eye，你还可以使用其他厂商的模型，推荐模型请参考 [Look2Eye 模型广场](https://api.look2eye.com/models)。
+通过 Look2Eye，你还可以使用其他厂商的模型，推荐模型请参考 [Look2Eye 可用渠道](https://api.look2eye.com/available-channels)。
 
 ## 兼容性
 
@@ -84,7 +84,7 @@ Look2Eye 支持 OpenAI API 的以下功能：
 from langchain_openai import ChatOpenAI
 
 llm = ChatOpenAI(
-    base_url="https://api.api.look2eye.com/v1",
+    base_url="https://api.look2eye.com/v1",
     api_key="<你的 LOOK2EYE_API_KEY>",
     model="openai/gpt-4o"
 )
@@ -96,7 +96,7 @@ llm = ChatOpenAI(
 from llama_index.llms.openai import OpenAI
 
 llm = OpenAI(
-    api_base="https://api.api.look2eye.com/v1",
+    api_base="https://api.look2eye.com/v1",
     api_key="<你的 LOOK2EYE_API_KEY>",
     model="openai/gpt-4o"
 )
@@ -107,7 +107,7 @@ llm = OpenAI(
 ```ts
 
 const look2eye = createOpenAI({
-  baseURL: 'https://api.api.look2eye.com/v1',
+  baseURL: 'https://api.look2eye.com/v1',
   apiKey: '<你的 LOOK2EYE_API_KEY>'
 })
 

@@ -21,10 +21,10 @@ description: "沉浸式翻译配置：Look2Eye 文档页面，说明接口用途
 
 | 协议 | 配置方式 | 自定义接口地址 | 适用模型 |
 | --- | --- | --- | --- |
-| **OpenAI Chat** | 自定义翻译服务 | `https://api.api.look2eye.com/v1/chat/completions` | 所有模型 |
-| **OpenAI Response** | 自定义翻译服务 | `https://api.api.look2eye.com/v1/responses` | 所有模型 |
-| **Claude** | 内置 Claude 服务商 | `https://api.api.look2eye.com/anthropic` | Claude 系列 |
-| **Gemini（通过 OpenAI Chat）** | 自定义翻译服务 | `https://api.api.look2eye.com/v1/chat/completions` | Gemini 系列 |
+| **OpenAI Chat** | 自定义翻译服务 | `https://api.look2eye.com/v1/chat/completions` | 所有模型 |
+| **OpenAI Response** | 自定义翻译服务 | `https://api.look2eye.com/v1/responses` | 所有模型 |
+| **Claude** | 内置 Claude 服务商 | `https://api.look2eye.com/anthropic` | Claude 系列 |
+| **Gemini（通过 OpenAI Chat）** | 自定义翻译服务 | `https://api.look2eye.com/v1/chat/completions` | Gemini 系列 |
 
 > ℹ️ 沉浸式翻译内置的 Gemini 服务商使用 `x-goog-api-key` 认证头，与 Look2Eye 的 `Authorization: Bearer` 认证方式不兼容，因此无法直接使用内置 Gemini 服务商接入 Look2Eye。如需使用 Gemini 模型，请通过 OpenAI Chat 自定义服务，在自定义模型名中填写 Gemini 模型名称（如 `google/gemini-3.1-flash-lite-preview`、`google/gemini-3.1-pro-preview` 等）即可。
 
@@ -55,7 +55,7 @@ description: "沉浸式翻译配置：Look2Eye 文档页面，说明接口用途
 | 配置项 | 值 |
 | --- | --- |
 | **自定义翻译服务名称** | `look2eye`（或任意名称） |
-| **自定义 API 接口地址** | `https://api.api.look2eye.com/v1/chat/completions` |
+| **自定义 API 接口地址** | `https://api.look2eye.com/v1/chat/completions` |
 | **APIKEY** | 你的 Look2Eye API Key |
 | **模型** | 勾选「输入自定义模型名称」，填写模型名，例如 `openai/gpt-4.1` |
 
@@ -64,7 +64,7 @@ description: "沉浸式翻译配置：Look2Eye 文档页面，说明接口用途
 | 配置项 | 值 |
 | --- | --- |
 | **自定义翻译服务名称** | `look2eye-response`（或任意名称） |
-| **自定义 API 接口地址** | `https://api.api.look2eye.com/v1/responses` |
+| **自定义 API 接口地址** | `https://api.look2eye.com/v1/responses` |
 | **APIKEY** | 你的 Look2Eye API Key |
 | **模型** | 勾选「输入自定义模型名称」，填写模型名，例如 `openai/gpt-4.1` |
 
@@ -75,7 +75,7 @@ description: "沉浸式翻译配置：Look2Eye 文档页面，说明接口用途
 | 配置项 | 值 |
 | --- | --- |
 | **APIKEY** | 你的 Look2Eye API Key |
-| **自定义 API 接口地址** | `https://api.api.look2eye.com/anthropic` |
+| **自定义 API 接口地址** | `https://api.look2eye.com/anthropic` |
 | **模型** | 勾选「输入自定义模型名称」，填写 `claude-sonnet-4.6` |
 
 填写完成后点击**点此测试服务**，通过后点击**保存**。
@@ -94,7 +94,7 @@ description: "沉浸式翻译配置：Look2Eye 文档页面，说明接口用途
 
 ## 可用模型示例
 
-推荐模型请参考 [Look2Eye 模型广场](https://api.look2eye.com/models) 。
+推荐模型请参考 [Look2Eye 可用渠道](https://api.look2eye.com/available-channels) 。
 
 ## 常见问题
 

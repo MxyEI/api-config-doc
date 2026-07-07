@@ -39,7 +39,7 @@ description: "在 Claude Coworks 中启用第三方推理 Gateway，并通过 Lo
 
 | 配置项 | 值 |
 | --- | --- |
-| Gateway base URL | `https://api.api.look2eye.com/anthropic` |
+| Gateway base URL | `https://api.look2eye.com` |
 | Gateway API key | 你的 Look2Eye API Key |
 | Gateway auth scheme | `x-api-key` |
 
@@ -49,7 +49,7 @@ description: "在 Claude Coworks 中启用第三方推理 Gateway，并通过 Lo
 
 ### 第 5 步：浏览可用模型
 
-连接建立后，即可在 Claude Coworks 中查看所有可用模型。前往 [Look2Eye 模型广场](https://api.look2eye.com/models) 浏览完整的支持模型列表及其功能说明。
+连接建立后，即可在 Claude Coworks 中查看所有可用模型。前往 [Look2Eye 可用渠道](https://api.look2eye.com/available-channels) 浏览完整的支持模型列表及其功能说明。
 
 ![浏览可用模型](../assets/claude-coworks/05-browse-models.webp)
 
@@ -67,7 +67,7 @@ description: "在 Claude Coworks 中启用第三方推理 Gateway，并通过 Lo
 
 ## 开始使用
 
-配置生效后，Claude Coworks 的所有推理请求将通过 Look2Eye Gateway 转发。可前往 [Look2Eye 模型广场](https://api.look2eye.com/models) 查看支持的模型列表。
+配置生效后，Claude Coworks 的所有推理请求将通过 Look2Eye Gateway 转发。可前往 [Look2Eye 可用渠道](https://api.look2eye.com/available-channels) 查看支持的模型列表。
 
 ## 常见问题
 
@@ -77,7 +77,7 @@ description: "在 Claude Coworks 中启用第三方推理 Gateway，并通过 Lo
 
 **Q: 点击 Apply locally 后状态指示器未变绿 / 连接失败**
 
-1. 确认 Gateway base URL 填写为 `https://api.api.look2eye.com/anthropic`，末尾不加斜杠
+1. 确认 Gateway base URL 填写为 `https://api.look2eye.com`，末尾不加斜杠
 2. 确认 Gateway auth scheme 选择的是 `x-api-key`
 3. 确认 API Key 从 Look2Eye 控制台 完整复制，无多余空格
 4. 确认网络连接正常

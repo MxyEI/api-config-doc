@@ -15,10 +15,10 @@ Look2Eye supports four protocols in LobeHub:
 
 | Protocol | Provider | API Proxy URL | Example Models (partial) |
 | --- | --- | --- | --- |
-| **OpenAI Chat** (recommended) | OpenAI | `https://api.api.look2eye.com/v1` | `openai/gpt-4.1`, `openai/gpt-4.1-mini`, `openai/gpt-5.4-mini`, etc. |
-| **OpenAI Response** | OpenAI | `https://api.api.look2eye.com/v1` | `openai/gpt-4.1`, `openai/gpt-5.4-mini`, GPT series only |
-| **Claude** | Anthropic | `https://api.api.look2eye.com/anthropic` | `anthropic/claude-sonnet-4.6`, `anthropic/claude-opus-4.6`, `anthropic/claude-haiku-4.5` |
-| **Gemini** | Google | `https://api.api.look2eye.com/gemini` | `google/gemini-3.1-flash-lite-preview`, `google/gemini-3.1-pro-preview` |
+| **OpenAI Chat** (recommended) | OpenAI | `https://api.look2eye.com/v1` | `openai/gpt-4.1`, `openai/gpt-4.1-mini`, `openai/gpt-5.4-mini`, etc. |
+| **OpenAI Response** | OpenAI | `https://api.look2eye.com/v1` | `openai/gpt-4.1`, `openai/gpt-5.4-mini`, GPT series only |
+| **Claude** | Anthropic | `https://api.look2eye.com/anthropic` | `anthropic/claude-sonnet-4.6`, `anthropic/claude-opus-4.6`, `anthropic/claude-haiku-4.5` |
+| **Gemini** | Google | `https://api.look2eye.com/gemini` | `google/gemini-3.1-flash-lite-preview`, `google/gemini-3.1-pro-preview` |
 
 
 ## Prerequisites
@@ -58,7 +58,7 @@ Select the provider and fill in the details. Example using **OpenAI Chat**:
 | Field | Value |
 | --- | --- |
 | **API Key** | Your Look2Eye API Key |
-| **API Proxy URL** | `https://api.api.look2eye.com/v1` |
+| **API Proxy URL** | `https://api.look2eye.com/v1` |
 | **Use Responses API** | Off (OpenAI Chat) / On (OpenAI Response) |
 
 
@@ -67,9 +67,9 @@ API Proxy URL by protocol:
 
 | Protocol | Provider | API Proxy URL |
 | --- | --- | --- |
-| **OpenAI Chat / Response** | OpenAI | `https://api.api.look2eye.com/v1` |
-| **Claude** | Anthropic | `https://api.api.look2eye.com/anthropic` |
-| **Gemini** | Google | `https://api.api.look2eye.com/gemini` |
+| **OpenAI Chat / Response** | OpenAI | `https://api.look2eye.com/v1` |
+| **Claude** | Anthropic | `https://api.look2eye.com/anthropic` |
+| **Gemini** | Google | `https://api.look2eye.com/gemini` |
 
 
 After filling in, select a model in the connectivity check field and click the check button. “**Check passed**” means the configuration is successful.
@@ -104,7 +104,7 @@ After setup, go back to the main screen, click the model icon on the left of the
 **Q: What’s the difference between OpenAI Chat and OpenAI Response?**
 
 
-Both use the same API Proxy URL `https://api.api.look2eye.com/v1`, but differ in request format:
+Both use the same API Proxy URL `https://api.look2eye.com/v1`, but differ in request format:
 
 
 - **OpenAI Chat** (Responses API off): uses `/v1/chat/completions`, supports all models, best compatibility

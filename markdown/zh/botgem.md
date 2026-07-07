@@ -51,22 +51,22 @@ Look2Eye 支持以下三种协议，推荐选择 **OpenAI**：
 
 | 协议 | API Server |
 | --- | --- |
-| **OpenAI Chat**（推荐） | `https://api.api.look2eye.com` |
-| **Claude** | `https://api.api.look2eye.com/anthropic` |
-| **Gemini** | `https://api.api.look2eye.com/gemini` |
+| **OpenAI Chat**（推荐） | `https://api.look2eye.com` |
+| **Claude** | `https://api.look2eye.com/anthropic` |
+| **Gemini** | `https://api.look2eye.com/gemini` |
 
 以 OpenAI Chat 为例：
 
 | 配置项 | 值 |
 | --- | --- |
 | **Name** | `look2eye`（或任意名称） |
-| **API Server** | `https://api.api.look2eye.com` |
+| **API Server** | `https://api.look2eye.com` |
 | **API Key** | 你的 Look2Eye API Key |
 | **Models** | 点击 Refresh 自动拉取，或手动输入，例如 `gpt-4.1` |
 
 ![填写配置信息](../assets/botgem/04-填写配置信息.webp)
 
-> ℹ️ API Server 填 `https://api.api.look2eye.com` 后，BotGem 会自动补全为 `https://api.api.look2eye.com/v1/chat/completions`。通过 OpenAI Chat 协议可调用所有厂商模型，手动输入时使用 `厂商/模型名` 格式，例如 `anthropic/claude-opus-4.5`、`deepseek/deepseek-v3.2`。
+> ℹ️ API Server 填 `https://api.look2eye.com` 后，BotGem 会自动补全为 `https://api.look2eye.com/v1/chat/completions`。通过 OpenAI Chat 协议可调用所有厂商模型，手动输入时使用 `厂商/模型名` 格式，例如 `anthropic/claude-opus-4.5`、`deepseek/deepseek-v3.2`。
 
 ### 第 5 步：检查连接并保存
 
@@ -92,4 +92,4 @@ Look2Eye 支持以下三种协议，推荐选择 **OpenAI**：
 
 点击 Models 右侧的 **Refresh** 按钮可自动拉取模型列表，列表中的名称**不带前缀**（如 `gpt-4.1`）。
 
-如果想使用列表之外的模型，需要**手动输入完整模型名**，格式为 `厂商/模型名`。完整模型列表可在 [Look2Eye 模型广场](https://api.look2eye.com/models)  查看。
+如果想使用列表之外的模型，需要**手动输入完整模型名**，格式为 `厂商/模型名`。完整模型列表可在 [Look2Eye 可用渠道](https://api.look2eye.com/available-channels)  查看。

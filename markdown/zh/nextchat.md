@@ -14,9 +14,9 @@ NextChat 支持以下三种协议接入 Look2Eye：
 
 | 协议 | 模型服务商 | 接口地址 | 适用模型 |
 | --- | --- | --- | --- |
-| **OpenAI Chat** | OpenAI | `https://api.api.look2eye.com` | 所有模型（带 `厂商/` 前缀） |
-| **Anthropic** | Anthropic | `https://api.api.look2eye.com/anthropic` | Claude 系列 |
-| **Google Gemini** | Google | `https://api.api.look2eye.com/gemini` | Gemini 系列 |
+| **OpenAI Chat** | OpenAI | `https://api.look2eye.com` | 所有模型（带 `厂商/` 前缀） |
+| **Anthropic** | Anthropic | `https://api.look2eye.com/anthropic` | Claude 系列 |
+| **Google Gemini** | Google | `https://api.look2eye.com/gemini` | Gemini 系列 |
 
 ## 前提条件
 
@@ -42,7 +42,7 @@ NextChat 支持以下三种协议接入 Look2Eye：
 | 配置项 | 值 |
 | --- | --- |
 | **模型服务商** | OpenAI |
-| **接口地址** | `https://api.api.look2eye.com` |
+| **接口地址** | `https://api.look2eye.com` |
 | **API Key** | 你的 Look2Eye API Key |
 | **自定义模型名** | 例如 `openai/gpt-5.3-chat,anthropic/claude-sonnet-4.6,deepseek/deepseek-v3.2` |
 
@@ -51,7 +51,7 @@ NextChat 支持以下三种协议接入 Look2Eye：
 | 配置项 | 值 |
 | --- | --- |
 | **模型服务商** | Anthropic |
-| **接口地址** | `https://api.api.look2eye.com/anthropic` |
+| **接口地址** | `https://api.look2eye.com/anthropic` |
 | **API Key** | 你的 Look2Eye API Key |
 | **自定义模型名** | 例如 `claude-sonnet-4.6,claude-opus-4.6,claude-haiku-4.5` |
 
@@ -60,7 +60,7 @@ NextChat 支持以下三种协议接入 Look2Eye：
 | 配置项 | 值 |
 | --- | --- |
 | **模型服务商** | Google |
-| **终端地址** | `https://api.api.look2eye.com/gemini` |
+| **终端地址** | `https://api.look2eye.com/gemini` |
 | **API Key** | 你的 Look2Eye API Key |
 | **自定义模型名** | 例如 `google/gemini-3.1-pro-preview,google/gemini-3.1-flash-lite-preview` |
 
@@ -68,7 +68,7 @@ NextChat 支持以下三种协议接入 Look2Eye：
 
 > ℹ️ **自定义模型名** 字段支持同时填写多个模型，用英文逗号隔开。填写后这些模型会出现在「模型 (model)」下拉列表中供你选择。
 
-> ⚠️ 使用 OpenAI 服务商时，接口地址填 `https://api.api.look2eye.com`（不含 `/v1`），NextChat 会自动补全完整路径。若填写 `https://api.api.look2eye.com/v1` 会导致路径重复报错。
+> ⚠️ 使用 OpenAI 服务商时，接口地址填 `https://api.look2eye.com`（不含 `/v1`），NextChat 会自动补全完整路径。若填写 `https://api.look2eye.com/v1` 会导致路径重复报错。
 
 ### 第 3 步：选择模型
 
@@ -88,7 +88,7 @@ NextChat 支持以下三种协议接入 Look2Eye：
 
 ## 可用模型示例
 
-推荐模型请参考 [Look2Eye 模型广场](https://api.look2eye.com/models) 。
+推荐模型请参考 [Look2Eye 可用渠道](https://api.look2eye.com/available-channels) 。
 
 ## 常见问题
 
@@ -98,7 +98,7 @@ NextChat 支持以下三种协议接入 Look2Eye：
 
 **Q: 报错 `Unsupported OpenAI API endpoint`**
 
-接口地址填写了 `https://api.api.look2eye.com/v1`，导致路径重复。请改为 `https://api.api.look2eye.com`（不含 `/v1`）。
+接口地址填写了 `https://api.look2eye.com/v1`，导致路径重复。请改为 `https://api.look2eye.com`（不含 `/v1`）。
 
 **Q: OpenAI 服务商可以调用 Claude 和 Gemini 模型吗？**
 

@@ -18,9 +18,9 @@ Regardless of the tool, configuration follows these principles:
 
 | Tool’s Protocol | Base URL | API Key Header |
 | --- | --- | --- |
-| OpenAI Compatible | `https://api.api.look2eye.com/v1` | `Authorization: Bearer sk-xxx` |
-| Anthropic Native | `https://api.api.look2eye.com/anthropic` | `x-api-key: sk-xxx` |
-| Gemini Native | `https://api.api.look2eye.com/gemini` | `x-goog-api-key: sk-xxx` |
+| OpenAI Compatible | `https://api.look2eye.com/v1` | `Authorization: Bearer sk-xxx` |
+| Anthropic Native | `https://api.look2eye.com/anthropic` | `x-api-key: sk-xxx` |
+| Gemini Native | `https://api.look2eye.com/gemini` | `x-goog-api-key: sk-xxx` |
 
 
 ## Continue (VS Code / JetBrains)
@@ -36,14 +36,14 @@ Regardless of the tool, configuration follows these principles:
       "title": "Look2Eye GPT-4o",
       "provider": "openai",
       "model": "openai/gpt-4o",
-      "apiBase": "https://api.api.look2eye.com/v1",
+      "apiBase": "https://api.look2eye.com/v1",
       "apiKey": "<your LOOK2EYE_API_KEY>"
     },
     {
       "title": "Look2Eye Claude Sonnet",
       "provider": "openai",
       "model": "anthropic/claude-sonnet-4.6",
-      "apiBase": "https://api.api.look2eye.com/v1",
+      "apiBase": "https://api.look2eye.com/v1",
       "apiKey": "<your LOOK2EYE_API_KEY>"
     }
   ]
@@ -59,7 +59,7 @@ Regardless of the tool, configuration follows these principles:
 
 ```text filename="~/.zshrc"
 export OPENAI_API_KEY=<your LOOK2EYE_API_KEY>
-export OPENAI_API_BASE=https://api.api.look2eye.com/v1
+export OPENAI_API_BASE=https://api.look2eye.com/v1
 ```
 
 
@@ -76,7 +76,7 @@ aider --model openai/gpt-4o
 
 1. Open BoltAI → **Preferences** → **Providers**
 2. Add **Custom OpenAI**
-3. Enter Base URL: `https://api.api.look2eye.com/v1`
+3. Enter Base URL: `https://api.look2eye.com/v1`
 4. Enter your API Key
 
 
@@ -87,7 +87,7 @@ aider --model openai/gpt-4o
 
 
 1. Go to **Settings** → **Custom Endpoint**
-2. API Endpoint: `https://api.api.look2eye.com/v1`
+2. API Endpoint: `https://api.look2eye.com/v1`
 3. API Key: Your Look2Eye API Key
 
 
@@ -99,7 +99,7 @@ aider --model openai/gpt-4o
 
 1. Open ChatBox → **Settings** → **AI Provider**
 2. Select **OpenAI API Compatible**
-3. API Domain: `https://api.api.look2eye.com`
+3. API Domain: `https://api.look2eye.com`
 4. API Key: Your Look2Eye API Key
 
 
@@ -110,7 +110,7 @@ For other tools not listed here, the general steps are:
 
 
 1. Find the tool’s API configuration settings
-2. Set the API Base URL to `https://api.api.look2eye.com/v1`
+2. Set the API Base URL to `https://api.look2eye.com/v1`
 3. Set the API Key to your Look2Eye Key
 4. Use the `provider/model-name` format for model names
 

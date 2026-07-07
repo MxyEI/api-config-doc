@@ -71,9 +71,9 @@ API Server by protocol:
 
 | Protocol | API Server |
 | --- | --- |
-| **OpenAI Chat** (recommended) | `https://api.api.look2eye.com` |
-| **Claude** | `https://api.api.look2eye.com/anthropic` |
-| **Gemini** | `https://api.api.look2eye.com/gemini` |
+| **OpenAI Chat** (recommended) | `https://api.look2eye.com` |
+| **Claude** | `https://api.look2eye.com/anthropic` |
+| **Gemini** | `https://api.look2eye.com/gemini` |
 
 
 Example using OpenAI Chat:
@@ -82,7 +82,7 @@ Example using OpenAI Chat:
 | Field | Value |
 | --- | --- |
 | **Name** | `look2eye` (or any name) |
-| **API Server** | `https://api.api.look2eye.com` |
+| **API Server** | `https://api.look2eye.com` |
 | **API Key** | Your Look2Eye API Key |
 | **Models** | Click Refresh to auto-fetch, or type manually, e.g. `gpt-4.1` |
 
@@ -90,7 +90,7 @@ Example using OpenAI Chat:
 ![Fill in configuration](../assets/botgem/04-fill-in-configuration.webp)
 
 
-> ℹ️ When you enter `https://api.api.look2eye.com`, BotGem automatically appends `/v1/chat/completions`. Using OpenAI Chat, you can call any model — just use the `provider/model-name` format when typing manually, e.g. `anthropic/claude-opus-4.5` or `deepseek/deepseek-v3.2`.
+> ℹ️ When you enter `https://api.look2eye.com`, BotGem automatically appends `/v1/chat/completions`. Using OpenAI Chat, you can call any model — just use the `provider/model-name` format when typing manually, e.g. `anthropic/claude-opus-4.5` or `deepseek/deepseek-v3.2`.
 
 
 ### Step 5: Check Connection and Save

@@ -77,7 +77,7 @@ chmod +x CC-Switch-*.AppImage && ./CC-Switch-*.AppImage
 | ❶ 供应商名称 | `look2eye` | 推荐使用，后续 WebSocket 配置更容易对应 |
 | ❷ 官网链接 | `https://api.look2eye.com` | 供应商官网 |
 | ❸ API Key | 你的 Look2Eye API Key | 在 [api.look2eye.com/keys](https://api.look2eye.com/keys) 获取 |
-| ❹ 请求地址 | `https://api.api.look2eye.com/v1` | 末尾不要加斜杠 |
+| ❹ 请求地址 | `https://api.look2eye.com/v1` | 末尾不要加斜杠 |
 | ❺ API 格式 | `OpenAI Compatible` | 选择 OpenAI 兼容格式 |
 | ❻ 写入通用配置 | ✅ 勾选 | 写入全局配置，所有项目生效 |
 
@@ -109,9 +109,9 @@ codex "hello"
 codex --model <model-id> "重构这个函数"
 ```
 
-> ⚠️ Codex CLI 需要使用 **Responses 协议格式**（`wire_api = "responses"`）来接收编码任务中的流式响应和工具调用，并非所有模型都支持此格式。选择模型时，请在 [Look2Eye 模型广场](https://api.look2eye.com/models)  确认该模型支持 **Responses** 协议，否则会报错。
+> ⚠️ Codex CLI 需要使用 **Responses 协议格式**（`wire_api = "responses"`）来接收编码任务中的流式响应和工具调用，并非所有模型都支持此格式。选择模型时，请在 [Look2Eye 可用渠道](https://api.look2eye.com/available-channels)  确认该模型支持 **Responses** 协议，否则会报错。
 
-推荐模型请参考 [Look2Eye 模型广场](https://api.look2eye.com/models) 。
+推荐模型请参考 [Look2Eye 可用渠道](https://api.look2eye.com/available-channels) 。
 
 ## 故障排除
 
@@ -121,4 +121,4 @@ codex --model <model-id> "重构这个函数"
 
 **Q: 连接超时**
 
-确认请求地址为 `https://api.api.look2eye.com/v1`，末尾不带斜杠。
+确认请求地址为 `https://api.look2eye.com/v1`，末尾不带斜杠。

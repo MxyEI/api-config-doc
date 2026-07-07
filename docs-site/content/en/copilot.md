@@ -55,7 +55,7 @@ In the **Global Configuration** section, fill in the following fields and click 
 
 | Field | Value |
 | --- | --- |
-| **Global Base URL** | `https://api.api.look2eye.com/v1` |
+| **Global Base URL** | `https://api.look2eye.com/v1` |
 | **Global API Key** | Your Look2Eye API Key |
 
 
@@ -71,7 +71,7 @@ In the **Provider Management** section, click **Add Provider** (labeled ①), fi
 | Field | Value |
 | --- | --- |
 | **Provider ID** (labeled ②) | `look2eye` |
-| **Base URL** (labeled ③) | `https://api.api.look2eye.com` |
+| **Base URL** (labeled ③) | `https://api.look2eye.com` |
 | **API Key** (labeled ④) | Your Look2Eye API Key |
 | **API Mode** (labeled ⑤) | `Anthropic` |
 
@@ -160,7 +160,7 @@ In the model selector dropdown, disable **Auto** mode and look under the **Other
 Check the following:
 
 
-1. Is the Global Base URL exactly `https://api.api.look2eye.com/v1` (no trailing slash)?
+1. Is the Global Base URL exactly `https://api.look2eye.com/v1` (no trailing slash)?
 2. Was the API Key copied in full from the [Look2Eye Console](https://api.look2eye.com/keys) (no leading/trailing spaces)?
 3. Is the Provider’s API Mode set to `Anthropic`?
 

@@ -42,7 +42,7 @@ from langchain_openai import ChatOpenAI
 llm = ChatOpenAI(
     model="openai/gpt-4.1",
     openai_api_key="<YOUR_LOOK2EYE_API_KEY>",
-    openai_api_base="https://api.api.look2eye.com/v1"
+    openai_api_base="https://api.look2eye.com/v1"
 )
 
 response = llm.invoke("Hello")
@@ -65,7 +65,7 @@ const llm = new ChatOpenAI({
   model: "openai/gpt-4.1",
   openAIApiKey: "<YOUR_LOOK2EYE_API_KEY>",
   configuration: {
-    baseURL: "https://api.api.look2eye.com/v1"
+    baseURL: "https://api.look2eye.com/v1"
   }
 })
 
