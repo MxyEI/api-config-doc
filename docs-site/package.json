@@ -1,0 +1,23 @@
+{
+  "name": "integrations-docs",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "pagefind --site out --output-path out/_pagefind"
+  },
+  "dependencies": {
+    "next": "^15.3.5",
+    "nextra": "^4",
+    "nextra-theme-docs": "^4",
+    "react": "^19",
+    "react-dom": "^19"
+  },
+  "devDependencies": {
+    "pagefind": "^1"
+  },
+  "comment:overrides": "nextra-theme-docs@4.6.1 的 Layout 会先剥离 children 再用 Zod 校验其余 props，但其 schema 仍把 children 标为必填。zod>=4.4.0 会在校验自定义类型前先拒绝 undefined 必填字段，导致每个页面渲染 500。锁定 zod<4.4 规避。",
+  "overrides": {
+    "zod": "4.3.0"
+  }
+}

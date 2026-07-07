@@ -1,0 +1,14 @@
+/* 与 hao.ai/docs 一致的主色与内容宽度（取自原站 --nextra-primary-* 变量）。
+   浅色: hue 212° / saturation 100% / lightness 45°
+   深色: hue 204° / lightness 55° */
+:root {
+  --nextra-content-width: 90rem;
+  --nextra-primary-hue: 212deg;
+  --nextra-primary-saturation: 100%;
+  --nextra-primary-lightness: 45%;
+}
+
+html[class~='dark'] {
+  --nextra-primary-hue: 204deg;
+  --nextra-primary-lightness: 55%;
+}
