@@ -1,5 +1,5 @@
 ---
-title: "概览"
+title: "codex"
 description: "配置 Codex 本地客户端接入 Look2Eye，并开启推荐的 WebSocket 长连接。"
 ---
 

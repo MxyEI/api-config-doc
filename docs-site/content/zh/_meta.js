@@ -1,7 +1,7 @@
 export default {
   "index": "工具集成",
-  "claude-code": "概览",
-  "codex": "概览",
+  "claude-code": "claude code",
+  "codex": "codex",
   "gemini-cli": "Gemini CLI 配置",
   "cursor": "Cursor 兼容性说明",
   "copilot": "GitHub Copilot 配置",

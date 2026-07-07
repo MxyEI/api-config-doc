@@ -30,6 +30,14 @@ codex --version
 # 正常输出版本号即表示安装成功
 ```
 
+
+```
+codex
+
+进入后输入 /status
+```
+出现以下配置信息就是正确
+
 ![验证安装](../../assets/codex/02-验证安装.webp)
 
 > ℹ️ 如提示 `command not found`，请确认 Node.js 已正确安装（`node --version`），然后重新运行安装命令。

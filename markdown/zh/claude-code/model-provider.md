@@ -83,7 +83,7 @@ chmod +x CC-Switch-*.AppImage && ./CC-Switch-*.AppImage
 
 添加完成后回到列表，选中 `look2eye-claude`，点击**使用**按钮，看到「切换成功」提示即完成。
 
-![CC Switch 启用供应商](../../assets/claude-code/03-cc-switch-启用供应商.webp)
+
 
 ## 3\. 验证配置
 
@@ -106,7 +106,7 @@ claude
 
 ### 步骤一：筛选兼容模型
 
-前往 [Look2Eye 模型广场](https://api.look2eye.com/models) ，在左侧 **API 协议** 中选择 **Anthropic**，筛选出支持 Anthropic 协议的模型。
+前往 [Look2Eye 可用渠道](https://api.look2eye.com/available-channels) ，在左侧 **API 协议** 中选择 **Anthropic**，筛选出支持 Anthropic 协议的模型。
 
 ![模型广场筛选 Anthropic 协议](../../assets/claude-code/05-模型广场筛选-anthropic-协议.webp)
 

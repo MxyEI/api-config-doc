@@ -1,5 +1,5 @@
 ---
-title: "概览"
+title: "claude code"
 description: "在 Claude Code 中使用 Look2Eye 的完整配置指南：环境变量、模型 provider 选择、Skills 等"
 ---
 
