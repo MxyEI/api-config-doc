@@ -55,7 +55,7 @@ description: "在 Claude 桌面版 中启用第三方推理 Gateway，并通过 
 
 ### 第 7 步：验证并开始使用
 
-设置已完成！Claude Coworks 将通过 Look2Eye Gateway 以你选定的模型转发所有推理请求。现在即可正常使用 Claude Coworks，所有请求都将通过 Look2Eye 基础设施处理。
+设置已完成！Claude Coworks 将通过 Look2Eye Gateway 以你选定的模型转发所有推理请求。现在即可正常使用 Claude，所有请求都将通过 Look2Eye 基础设施处理。
 
 
 ## 开始使用
@@ -70,3 +70,4 @@ description: "在 Claude 桌面版 中启用第三方推理 Gateway，并通过 
 2. 确认 Gateway auth scheme 选择的是 `bearer`
 3. 确认 API Key 从 Look2Eye 控制台 完整复制，无多余空格
 4. 确认网络连接正常
+5. 首次使用 claude 桌面版，官方应用内部会自己下载一个二进制，此时网不好的同学需要挂梯子
