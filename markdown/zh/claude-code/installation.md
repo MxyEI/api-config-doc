@@ -51,6 +51,19 @@ curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del in
 
 ```bash
 brew install --cask claude-code
+
+#如果提示未安装 brew,先手动执行安装
+xcode-select --install
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# 国内用户没梯子的可以使用下面命令按照 brew
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+
+```
+
+还不会安装的小白请看 homebrew 安装文档，电脑大神请略过
+```
+https://mirrors4.tuna.tsinghua.edu.cn/help/homebrew/
 ```
 
 > ⚠️ Homebrew 安装不会自动更新。需定期运行 brew upgrade claude-code 获取最新版本。
